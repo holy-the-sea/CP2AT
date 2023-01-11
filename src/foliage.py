@@ -1,15 +1,13 @@
 # ! /usr/bin/python
 
-import os
 import re
 from collections import defaultdict
 from pathlib import Path
 
 from PIL import Image
-
-from file_names import get_file_path
-from file_variations import get_file_variations
-from texture_json import generate_texture_json
+from src.file_names import get_file_path
+from src.file_variations import get_file_variations
+from src.texture_json import generate_texture_json
 
 
 def convert_trees(
@@ -22,8 +20,6 @@ def convert_trees(
 ):
     file = change["FromFile"]
     target_file = change["Target"]
-    tree = Path(target_file).stem
-    print(f"Converting {tree}...")
 
     found_placeholders = re.findall(r"{{(.*?)}}", str(file))
     found_seasons = False
@@ -82,6 +78,8 @@ def convert_trees(
                     config_schema_options,
                     dynamic_tokens,
                 )
+                if all(f in file_variations for f in file_variations2):
+                    continue
                 file_variations.extend(file_variations2)
                 file_variations.remove(file)
 
@@ -104,23 +102,15 @@ def convert_trees(
             X_right = im.size[0]
             tree_height = 80
             for i, fruit in enumerate(fruit_trees):
+                print(f"Converting {fruit} Sapling... from {Path(file)}")
                 new_file_path = get_file_path(
                     file, fruit.capitalize(), mod_folder_path, file_season
                 )
-                # fruit_tree_folder = Path(new_file_path).parent
-                # # if not fruit_tree_folder.exists():
-                # #     os.mkdir(fruit_tree_folder)
-                # # for _, _, files in os.walk(fruit_tree_folder):
-                # #     texture_num = len(
-                # #         [file for file in files if re.match(r"texture_d+.png", file)]
-                # #     )
-                # #     break
 
                 if "ToArea" not in change.keys():
                     tree_Y = Y + tree_height * i
                     tree_Y_bottom = tree_height * (i + 1)
                     im_fruit_tree = im.crop((X, tree_Y, X_right, tree_Y_bottom))
-                    print(new_file_path)
                 im_fruit_tree.save(new_file_path)
                 fruit_tree_variations[fruit].append(im_fruit_tree)
                 texture_json_path = Path(new_file_path).parent / "texture.json"
@@ -134,7 +124,7 @@ def convert_trees(
                     file_season,
                 )
             objects_replaced.update(fruit_tree_variations)
-            print("Done converting Fruit Trees.\n")
+            # print(f"Done converting Fruit Trees from {file}.\n")
             continue
 
         try:
@@ -153,6 +143,7 @@ def convert_trees(
             tree_type = re.search(r"(mushroom)_tree", str(target_file)).group(1).capitalize()
         except AttributeError:
             pass
+        print(f"Converting {tree_type} Sapling from {Path(file)}...")
         new_file_path = get_file_path(
             file, tree_type.capitalize(), mod_folder_path, file_season
         )
@@ -174,5 +165,5 @@ def convert_trees(
         return objects_replaced
 
     objects_replaced[tree_type] = nonfruit_tree_variations
-    print(f"Done converting {tree_type.capitalize()} Tree.\n")
+    print(f"Done converting {tree_type.capitalize()} Tree from {Path(file).parent}\n")
     return objects_replaced

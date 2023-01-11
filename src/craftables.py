@@ -1,14 +1,14 @@
 #! /usr/bin/python
 
+import os
 import re
 from pathlib import Path
 
 import json5
 from PIL import Image, ImageChops
-
-from file_names import get_file_path
-from file_variations import get_file_variations
-from texture_json import generate_texture_json
+from src.file_names import get_file_path
+from src.file_variations import get_file_variations
+from src.texture_json import generate_texture_json
 
 #TODO: do springobjects.png
 
@@ -21,7 +21,7 @@ def convert_craftables(
     objects_replaced,
 ):
 
-    with open("craftable_coords.json", "r", encoding="utf-8") as file:
+    with open(Path(os.getcwd()) / "src/craftable_coords.json", "r", encoding="utf-8") as file:
         craftable_objects_info = json5.loads(file.read())
     craftable_objects_info = {
         (value["X"], value["Y"]): {
@@ -116,7 +116,7 @@ def convert_craftables(
                 im = im.crop((X, Y, X_right, Y_bottom))
                 im.save(new_file_path)
                 image_variations.append(im)
-                print(f"Cropped {object_name} from {Path(file)}.")
+                print(f"Cropped {object_name} from {Path(file)}.\n")
             # * update list of which objects we have replaced
             objects_replaced[object_name] = image_variations
             texture_json_path = Path(new_file_path).parent / "texture.json"
@@ -159,7 +159,7 @@ def convert_craftables(
                     )
                     im_cropped_mod.save(new_file_path)
                     image_variations.append(im_cropped_mod)
-                    print(f"Cropped {object_name} from {Path(file)}.")
+                    print(f"Cropped {object_name} from {Path(file)}.\n")
 
                     # * update list of which objects we have replaced
                     objects_replaced[object_name] = image_variations
