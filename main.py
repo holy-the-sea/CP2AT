@@ -4,23 +4,10 @@ from pathlib import Path
 
 import json5
 
-from craftables import convert_craftables
-from dynamic_tokens import get_config_schema, get_dynamic_tokens
-from buildings import convert_buildings
-from foliage import convert_trees
-
-# print("Loading index info for BigCraftables.json...")
-# with open("craftable_coords.json", "r", encoding="utf-8") as file:
-#     craftable_objects_info = json5.loads(file.read())
-# craftable_objects_info = {
-#     (value["X"], value["Y"]): {
-#         "Object": key,
-#         "Height": value["Height"],
-#         "Width": value["Width"],
-#     }
-#     for key, value in craftable_objects_info.items()
-# }
-# print("Done.\n")
+from src.craftables import convert_craftables
+from src.dynamic_tokens import get_config_schema, get_dynamic_tokens
+# from src.buildings import convert_buildings
+from src.foliage import convert_trees
 
 print("Reading configuration file...")
 with open("config.json", "r", encoding="utf-8") as file:
@@ -80,15 +67,15 @@ for change in content_json["Changes"]:
             keywords,
             objects_replaced,
         )
-    elif "buildings" in target:
-        objects_replaced = convert_buildings(
-            change,
-            mod_folder_path,
-            config_schema_options,
-            dynamic_tokens,
-            keywords,
-            objects_replaced
-        )
+    # elif "buildings" in target:
+    #     objects_replaced = convert_buildings(
+    #         change,
+    #         mod_folder_path,
+    #         config_schema_options,
+    #         dynamic_tokens,
+    #         keywords,
+    #         objects_replaced
+    #     )
     elif "tree" in target:
         objects_replaced = convert_trees(
             change,
