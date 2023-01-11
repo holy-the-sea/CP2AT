@@ -1,0 +1,1028 @@
+{
+    "??Foroguemon??": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 640
+    },
+    "??HMTGF??": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 608
+    },
+    "??Pinky Lemon??": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 640
+    },
+    "Ancient Stool": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 256
+    },
+    "Ancient Table": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 256
+    },
+    "Auto-Grabber": {
+        "Height": 32,
+        "Width": 32,
+        "X": 80,
+        "Y": 640
+    },
+    "Auto-Petter": {
+        "Height": 32,
+        "Width": 48,
+        "X": 0,
+        "Y": 1088
+    },
+    "Barrel Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 576
+    },
+    "Barrel_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 448
+    },
+    "Barrel_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 480
+    },
+    "Barrel_2": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 480
+    },
+    "Barrel_3": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 480
+    },
+    "Barrel_5": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 672
+    },
+    "Basic Log": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 128
+    },
+    "Bee House": {
+        "Height": 32,
+        "Width": 32,
+        "X": 32,
+        "Y": 32
+    },
+    "Big Green Cane": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 160
+    },
+    "Big Red Cane": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 160
+    },
+    "Bone Mill": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 352
+    },
+    "Bonfire": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 288
+    },
+    "Bongo": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 288
+    },
+    "Bookcase": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 256
+    },
+    "Boulder": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 288
+    },
+    "Camera": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 416
+    },
+    "Campfire": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 576
+    },
+    "Campfire_1": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 1088
+    },
+    "Carved Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 576
+    },
+    "Cask": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 640
+    },
+    "Charcoal Kiln": {
+        "Height": 32,
+        "Width": 32,
+        "X": 32,
+        "Y": 448
+    },
+    "Cheese Press": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 64
+    },
+    "Chest": {
+        "Height": 32,
+        "Width": 96,
+        "X": 32,
+        "Y": 512
+    },
+    "Chest Color": {
+        "Height": 64,
+        "Width": 96,
+        "X": 0,
+        "Y": 672
+    },
+    "Chest Color Steel Fittings": {
+        "Height": 32,
+        "Width": 96,
+        "X": 0,
+        "Y": 704
+    },
+    "Chest Steel Fittings": {
+        "Height": 32,
+        "Width": 96,
+        "X": 32,
+        "Y": 512
+    },
+    "Chicken Statue": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 96
+    },
+    "Coffee Maker": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 960
+    },
+    "Crate_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 448
+    },
+    "Crate_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 480
+    },
+    "Crate_2": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 480
+    },
+    "Crate_3": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 480
+    },
+    "Crate_4": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 672
+    },
+    "Crystalarium": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 64
+    },
+    "Cursed P.K. Arcade System": {
+        "Height": 32,
+        "Width": 32,
+        "X": 48,
+        "Y": 864
+    },
+    "Dark Sign": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 128
+    },
+    "Dead Tree": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 256
+    },
+    "Deconstructor": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 1056
+    },
+    "Decorative Pitcher": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 416
+    },
+    "Decorative Spears": {
+        "Height": 32,
+        "Width": 32,
+        "X": 64,
+        "Y": 288
+    },
+    "Deluxe Scarecrow": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 640
+    },
+    "Door_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 288
+    },
+    "Door_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 320
+    },
+    "Dried Sunflowers": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 448
+    },
+    "Empty Capsule": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 384
+    },
+    "Fancy Table": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 256
+    },
+    "Farm Computer": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 928
+    },
+    "Feed Hopper": {
+        "Height": 32,
+        "Width": 32,
+        "X": 48,
+        "Y": 384
+    },
+    "Furnace": {
+        "Height": 32,
+        "Width": 32,
+        "X": 80,
+        "Y": 32
+    },
+    "Garden Pot": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 224
+    },
+    "Geode Crusher": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 704
+    },
+    "Gold Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 576
+    },
+    "Grandfather Clock": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 256
+    },
+    "Grave Stone": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 160
+    },
+    "Green Canes": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 160
+    },
+    "Heater": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 416
+    },
+    "Heavy Tapper": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 1056
+    },
+    "Hopper": {
+        "Height": 32,
+        "Width": 48,
+        "X": 48,
+        "Y": 1088
+    },
+    "House Plant_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 0
+    },
+    "House Plant_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 0
+    },
+    "House Plant_2": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 0
+    },
+    "House Plant_3": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 0
+    },
+    "House Plant_4": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 0
+    },
+    "House Plant_5": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 0
+    },
+    "House Plant_6": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 0
+    },
+    "House Plant_7": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 0
+    },
+    "Incubator": {
+        "Height": 32,
+        "Width": 48,
+        "X": 80,
+        "Y": 384
+    },
+    "Iron Lamp-post": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 608
+    },
+    "Junimo Chest": {
+        "Height": 32,
+        "Width": 96,
+        "X": 0,
+        "Y": 1024
+    },
+    "Junimo Kart Arcade System": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 608
+    },
+    "Keg": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 32
+    },
+    "Lawn Flamingo": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 128
+    },
+    "Lightning Rod": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 32
+    },
+    "Locked Door_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 320
+    },
+    "Locked Door_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 320
+    },
+    "Log Section": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 160
+    },
+    "Loom": {
+        "Height": 32,
+        "Width": 32,
+        "X": 16,
+        "Y": 64
+    },
+    "Marble Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 576
+    },
+    "Mayonnaise Machine": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 96
+    },
+    "Mini-Fridge": {
+        "Height": 32,
+        "Width": 48,
+        "X": 0,
+        "Y": 864
+    },
+    "Mini-Jukebox": {
+        "Height": 32,
+        "Width": 32,
+        "X": 16,
+        "Y": 832
+    },
+    "Mini-Obelisk": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 928
+    },
+    "Mini-Shipping Bin": {
+        "Height": 32,
+        "Width": 96,
+        "X": 0,
+        "Y": 992
+    },
+    "Mixed Cane": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 160
+    },
+    "Mushroom Box": {
+        "Height": 32,
+        "Width": 32,
+        "X": 0,
+        "Y": 512
+    },
+    "Obelisk": {
+        "Height": 32,
+        "Width": 32,
+        "X": 80,
+        "Y": 96
+    },
+    "Obsidian Vase": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 352
+    },
+    "Oil Maker": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 64
+    },
+    "Ornamental Hay Bale": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 160
+    },
+    "Ostrich Incubator": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 992
+    },
+    "Plush Bunny": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 416
+    },
+    "Prairie King Arcade System": {
+        "Height": 32,
+        "Width": 32,
+        "X": 80,
+        "Y": 544
+    },
+    "Preserves Jar": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 32
+    },
+    "Rarecrow_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 416
+    },
+    "Rarecrow_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 448
+    },
+    "Rarecrow_2": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 480
+    },
+    "Rarecrow_3": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 544
+    },
+    "Rarecrow_4": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 544
+    },
+    "Rarecrow_5": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 544
+    },
+    "Rarecrow_6": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 544
+    },
+    "Rarecrow_7": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 544
+    },
+    "Recycling Machine": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 64
+    },
+    "Red Canes": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 160
+    },
+    "Ritual Mask": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 288
+    },
+    "Scarecrow": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 32
+    },
+    "Seasonal Decor": {
+        "Height": 32,
+        "Width": 64,
+        "X": 0,
+        "Y": 192
+    },
+    "Seasonal Plant_0": {
+        "Height": 32,
+        "Width": 64,
+        "X": 0,
+        "Y": 736
+    },
+    "Seasonal Plant_1": {
+        "Height": 32,
+        "Width": 64,
+        "X": 64,
+        "Y": 736
+    },
+    "Seasonal Plant_2": {
+        "Height": 32,
+        "Width": 64,
+        "X": 0,
+        "Y": 768
+    },
+    "Seasonal Plant_3": {
+        "Height": 32,
+        "Width": 64,
+        "X": 64,
+        "Y": 768
+    },
+    "Seasonal Plant_4": {
+        "Height": 32,
+        "Width": 64,
+        "X": 0,
+        "Y": 800
+    },
+    "Seasonal Plant_5": {
+        "Height": 32,
+        "Width": 64,
+        "X": 64,
+        "Y": 800
+    },
+    "Seed Maker": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 96
+    },
+    "Sewing Machine": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 960
+    },
+    "Sign Of The Vessel": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 128
+    },
+    "Singing Stone": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 352
+    },
+    "Skeleton Model": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 96
+    },
+    "Skull Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 576
+    },
+    "Slime Ball": {
+        "Height": 32,
+        "Width": 96,
+        "X": 0,
+        "Y": 224
+    },
+    "Slime Egg-Press": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 608
+    },
+    "Slime Incubator": {
+        "Height": 32,
+        "Width": 32,
+        "X": 64,
+        "Y": 608
+    },
+    "Sloth Skeleton L": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 320
+    },
+    "Sloth Skeleton M": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 320
+    },
+    "Sloth Skeleton R": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 320
+    },
+    "Soda Machine": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 448
+    },
+    "Solar Panel": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 896
+    },
+    "Solid Gold Lewis": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 640
+    },
+    "Staircase": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 256
+    },
+    "Standing Geode": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 352
+    },
+    "Stardew Hero Trophy": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 448
+    },
+    "Statue Of Endless Fortune": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 480
+    },
+    "Statue Of Perfection": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 640
+    },
+    "Statue Of True Perfection": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 1120
+    },
+    "Stone Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 576
+    },
+    "Stone Cairn": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 128
+    },
+    "Stone Chest": {
+        "Height": 32,
+        "Width": 96,
+        "X": 0,
+        "Y": 928
+    },
+    "Stone Chest Steel Fittings": {
+        "Height": 64,
+        "Width": 96,
+        "X": 0,
+        "Y": 960
+    },
+    "Stone Frog": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 192
+    },
+    "Stone Junimo": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 192
+    },
+    "Stone Owl_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 192
+    },
+    "Stone Owl_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 352
+    },
+    "Stone Parrot": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 192
+    },
+    "Stone Sign": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 128
+    },
+    "Strange Capsule": {
+        "Height": 32,
+        "Width": 32,
+        "X": 0,
+        "Y": 384
+    },
+    "Stump Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 576
+    },
+    "Suit Of Armor": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 128
+    },
+    "Table Piece L": {
+        "Height": 32,
+        "Width": 16,
+        "X": 96,
+        "Y": 64
+    },
+    "Table Piece R": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 64
+    },
+    "Tall Torch": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 288
+    },
+    "Tapper": {
+        "Height": 32,
+        "Width": 16,
+        "X": 16,
+        "Y": 416
+    },
+    "Teddy Timer": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 256
+    },
+    "Telephone": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 832
+    },
+    "Tub o' Flowers_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 416
+    },
+    "Tub o' Flowers_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 416
+    },
+    "Wicked Statue_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 320
+    },
+    "Wicked Statue_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 64,
+        "Y": 320
+    },
+    "Wood Chair_0": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 96
+    },
+    "Wood Chair_1": {
+        "Height": 32,
+        "Width": 16,
+        "X": 48,
+        "Y": 96
+    },
+    "Wood Chipper": {
+        "Height": 32,
+        "Width": 48,
+        "X": 48,
+        "Y": 832
+    },
+    "Wood Lamp-post": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 608
+    },
+    "Wood Sign": {
+        "Height": 32,
+        "Width": 16,
+        "X": 80,
+        "Y": 128
+    },
+    "Wooden Brazier": {
+        "Height": 32,
+        "Width": 16,
+        "X": 112,
+        "Y": 544
+    },
+    "Workbench": {
+        "Height": 32,
+        "Width": 16,
+        "X": 0,
+        "Y": 832
+    },
+    "Worm Bin": {
+        "Height": 32,
+        "Width": 16,
+        "X": 32,
+        "Y": 608
+    }
+}
