@@ -39,3 +39,23 @@ def get_file_variations(file, mod_folder_path, placeholder_tokens, *args):
                 file_variations.append(file_variant)
 
     return file_variations, found_season
+
+def expand_target_variations(file_variations, target_file, mod_folder_path, config_schema_options, dynamic_tokens):
+    for file in list(file_variations):
+        if "{{Target}}" in file:
+            file2 = file.replace("{{Target}}", str(target_file))
+            found_placeholders = re.findall(r"{{(.*?)}}", file2)
+            if found_placeholders:
+                file_variations2, _ = get_file_variations(
+                    file2,
+                    mod_folder_path,
+                    found_placeholders,
+                    config_schema_options,
+                    dynamic_tokens,
+                )
+            if all(f in file_variations for f in file_variations2):
+                continue
+            file_variations.extend(file_variations2)
+            file_variations.remove(file)
+
+    return file_variations
