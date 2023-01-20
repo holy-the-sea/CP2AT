@@ -1,6 +1,8 @@
+#! /usr/bin/python
+
 import json
-# from math import floor
 from pathlib import Path
+import numpy as np
 
 import json5
 
@@ -29,56 +31,94 @@ def _get_furniture_coords():
     }
 
     furniture_objects_path = Path("Data/Furniture.json")
-    with open(furniture_objects_path) as json_file:
-        furniture_objects_data = json5.loads(json_file.read())
-    furniture_objects_data = {key: value.split('/') for key, value in furniture_objects_data.items()}
+    with open(furniture_objects_path, encoding="utf-8") as json_file:
+        furniture_objects_json = json5.loads(json_file.read())
+    furniture_objects_data = {key: value.split("/") for key, value in furniture_objects_json.items()}
+
+    multiple_instances = []
+    names = [value.split("/")[0] for value in furniture_objects_json.values()]
+    for object_name in np.unique(names):
+        num_object = sum([object_name == name for name in names])
+        if num_object > 1:
+            multiple_instances.append(object_name)
 
     furniture_objects_dict = {}
-    
+
     for tileIndex, data in furniture_objects_data.items():
 
         X = int(tileIndex) * 16 % 512
         Y = int(tileIndex) * 16 // 512 * 16
-        
+
         if data[2] == "-1":
-            width, height = furniture_defaults[data[1]]["Width"], furniture_defaults[data[1]]["Height"]
+            width, height = (
+                furniture_defaults[data[1]]["Width"],
+                furniture_defaults[data[1]]["Height"],
+            )
         else:
-            width, height = data[2].split(' ')
+            width, height = data[2].split(" ")
             width = int(width) * 16
             height = int(height) * 16
-        
+
         if data[4] != "1":
             if "chair" in data[1]:
                 rot_width = width * 3
                 rot_height = height
-            elif data[1] == "bench" or data[1] == "couch":
-                rot_width = 80
-                rot_height = 48
+            elif data[1] == "bench":
+                rot_width = width * 2.5
+                rot_height = height * 1.5
+            elif data[1] == "couch":
+                rot_width = width * (8 / 3)
+                rot_height = height * 1.5
             elif data[1] == "dresser":
-                rot_width = 48
-                rot_height = 48
-            elif data[1] == "long table":
-                rot_width = 112
-                rot_height = 76
+                rot_width = width * 2.5
+                rot_height = height * 1.5
             elif "End Table" in data[0]:
-                rot_width = 32
-                rot_height = 32
+                rot_width = width * 2
+                rot_height = height
+            elif data[1] == "table":
+                rot_width = width * 1.5
+                rot_height = height * 1.5
+            elif data[1] == "long table":
+                rot_width = width * (7 / 5)
+                rot_height = height * (5 / 3)
             elif data[1] == "rug":
-                continue
-            #     rot_width = 48
-            #     rot_height = 48
-            # elif data[1] == "rug":
-            #     rot_width = width * 1.5
-            #     rot_height = width
-                
-            furniture_objects_dict[data[0]] = {"X": X, "Y": Y, "Type": data[1], "Width": rot_width, "Height": rot_height}
-                
-        else:
-            furniture_objects_dict[data[0]] = {"X": X, "Y": Y, "Type": data[1], "Width": width, "Height": height}
-        
+                if width < furniture_defaults["rug"]["Width"]:
+                    rot_width = width * 1.5
+                    rot_height = height * 2
+                else:                    
+                    rot_width = width * (5 / 3)
+                    rot_height = height * 1.5
 
-    with open("furniture_coords.json", "w") as file:
+            furniture_objects_dict[data[0]] = {
+                "X": X,
+                "Y": Y,
+                "Type": data[1],
+                "Width": rot_width,
+                "Height": rot_height,
+                "Rotations": data[4]
+            }
+
+        else:
+            rot_width = width
+            rot_height = height
+        if data[0] in multiple_instances:
+            id_num = sum(
+                [data[0] in object_key for object_key in furniture_objects_dict]
+            )
+            id_name = f"{data[0]}_{id_num}"
+        else:
+            id_name = data[0]
+        furniture_objects_dict[id_name] = {
+            "X": X,
+            "Y": Y,
+            "Type": data[1],
+            "Width": width,
+            "Height": height,
+            "Rotations": 1
+        }
+    with open("src/coords_info/furniture_coords.json", "w", encoding="utf-8") as file:
         json.dump(furniture_objects_dict, file, indent=4)
     return furniture_objects_dict
+
 
 furniture_objects_info = _get_furniture_coords()
