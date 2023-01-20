@@ -6,7 +6,7 @@ from pathlib import Path
 
 from PIL import Image
 from src.file_names import get_file_path
-from src.file_variations import get_file_variations
+from src.file_variations import get_file_variations, expand_target_variations
 from src.texture_json import generate_texture_json
 
 
@@ -55,6 +55,15 @@ def convert_trees(
             config_schema_options,
             dynamic_tokens,
         )
+    file_variations = expand_target_variations(
+        file_variations,
+        target_file,
+        mod_folder_path,
+        config_schema_options,
+        dynamic_tokens,
+    )
+    print(file_variations)
+
     try:
         X = change["FromArea"]["X"]
         Y = change["FromArea"]["Y"]
@@ -65,23 +74,6 @@ def convert_trees(
     except KeyError:
         X, Y, width, height = False, False, False, False
         # ! fix this escape
-
-    for file in list(file_variations):
-        if "{{Target}}" in file:
-            file2 = file.replace("{{Target}}", str(target_file))
-            found_placeholders2 = re.findall(r"{{(.*?)}}", file2)
-            if found_placeholders2:
-                file_variations2, found_seasons = get_file_variations(
-                    file2,
-                    mod_folder_path,
-                    found_placeholders2,
-                    config_schema_options,
-                    dynamic_tokens,
-                )
-                if all(f in file_variations for f in file_variations2):
-                    continue
-                file_variations.extend(file_variations2)
-                file_variations.remove(file)
 
     for file in file_variations:
         if re.search("{{.*?}}", file):
@@ -136,11 +128,15 @@ def convert_trees(
         except AttributeError:
             pass
         try:
-            tree_type = re.search(r"tree_(palm\d?)", str(target_file)).group(1).capitalize()
+            tree_type = (
+                re.search(r"tree_(palm\d?)", str(target_file)).group(1).capitalize()
+            )
         except AttributeError:
             pass
         try:
-            tree_type = re.search(r"(mushroom)_tree", str(target_file)).group(1).capitalize()
+            tree_type = (
+                re.search(r"(mushroom)_tree", str(target_file)).group(1).capitalize()
+            )
         except AttributeError:
             pass
         print(f"Converting {tree_type} Sapling from {Path(file)}...")
@@ -156,7 +152,13 @@ def convert_trees(
             image_variations.append(im)
         texture_json_path = Path(new_file_path).parent / "texture.json"
         generate_texture_json(
-            texture_json_path, tree_type + " Sapling", "Tree", 48, 160, keywords, file_season
+            texture_json_path,
+            tree_type + " Sapling",
+            "Tree",
+            48,
+            160,
+            keywords,
+            file_season,
         )
 
     if "fruittrees" in str(target_file).lower():
