@@ -11,7 +11,7 @@ def _get_craftable_coordinate_info():
 
     craftable_objects_path = Path("Data/BigCraftablesInformation.json")
 
-    with open(craftable_objects_path) as json_file:
+    with open(craftable_objects_path, encoding="utf-8") as json_file:
         craftable_objects_json = json5.loads(json_file.read())
 
     x_list = np.arange(0, 128, 16)
@@ -27,10 +27,10 @@ def _get_craftable_coordinate_info():
 
     multiple_instances = []
     names = [value.split("/")[0] for value in craftable_objects_json.values()]
-    for object in np.unique(names):
-        num_object = sum([object == name for name in names])
+    for object_name in np.unique(names):
+        num_object = sum([object_name == name for name in names])
         if num_object > 1:
-            multiple_instances.append(object)
+            multiple_instances.append(object_name)
 
     standard_width = 16
     standard_height = 32
@@ -110,7 +110,7 @@ def _get_craftable_coordinate_info():
         "Height": 64,
     }
 
-    with open("craftable_coords.json", "w") as file:
+    with open("src/coords_info/craftable_coords.json", "w", encoding="utf-8") as file:
         json.dump(craftable_objects_dict, file, indent=4, sort_keys=True)
 
     return craftable_objects_dict
