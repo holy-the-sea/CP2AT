@@ -7,10 +7,11 @@ from pathlib import Path
 import json5
 from PIL import Image, ImageChops
 from src.file_names import get_file_path
-from src.file_variations import get_file_variations
+from src.file_variations import get_file_variations, expand_target_variations
 from src.texture_json import generate_texture_json
 
-#TODO: do springobjects.png
+# TODO: do springobjects.png
+
 
 def convert_craftables(
     change,
@@ -21,8 +22,12 @@ def convert_craftables(
     objects_replaced,
 ):
 
-    with open(Path(os.getcwd()) / "src/craftable_coords.json", "r", encoding="utf-8") as file:
-        craftable_objects_info = json5.loads(file.read())
+    with open(
+        Path(os.getcwd()) / "src/coords_info/craftable_coords.json",
+        "r",
+        encoding="utf-8",
+    ) as json_file:
+        craftable_objects_info = json5.loads(json_file.read())
     craftable_objects_info = {
         (value["X"], value["Y"]): {
             "Object": key,
@@ -54,6 +59,14 @@ def convert_craftables(
             config_schema_options,
             dynamic_tokens,
         )
+    file_variations = expand_target_variations(
+        file_variations,
+        target_file,
+        mod_folder_path,
+        config_schema_options,
+        dynamic_tokens,
+    )
+
     # * check for whole tilesheet replacement
     if "ToArea" in change:
         tilesheet_coords = change["ToArea"]
@@ -67,20 +80,6 @@ def convert_craftables(
         print(
             "Item names not found from content.json, must do object identification by comparing sprites instead"
         )
-    for file in list(file_variations):
-        if "{{Target}}" in file:
-            file2 = file.replace("{{Target}}", str(target_file))
-            found_placeholders2 = re.findall(r"{{(.*?)}}", file2)
-            if found_placeholders2:
-                file_variations2, found_seasons = get_file_variations(
-                    file2,
-                    mod_folder_path,
-                    found_placeholders2,
-                    config_schema_options,
-                    dynamic_tokens,
-                )
-                file_variations.extend(file_variations2)
-                file_variations.remove(file)
 
     for file in file_variations:
         if re.search("{{.*?}}", file):
@@ -148,7 +147,7 @@ def convert_craftables(
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
-                if diff.getbbox() is not None: # got a hit
+                if diff.getbbox() is not None:  # got a hit
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)
                     im_mod = Image.open(mod_folder_path / file)

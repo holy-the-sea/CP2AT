@@ -1,0 +1,3480 @@
+{
+    "Oak Chair": {
+        "X": 0,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Walnut Chair": {
+        "X": 48,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Birch Chair": {
+        "X": 96,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Mahogany Chair": {
+        "X": 144,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Red Diner Chair": {
+        "X": 192,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Blue Diner Chair": {
+        "X": 240,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Country Chair": {
+        "X": 288,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Breakfast Chair": {
+        "X": 336,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Pink Office Chair": {
+        "X": 384,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Purple Office Chair": {
+        "X": 432,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Green Office Stool": {
+        "X": 480,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Orange Office Stool": {
+        "X": 496,
+        "Y": 0,
+        "Type": "chair",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Dark Throne": {
+        "X": 0,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Dining Chair": {
+        "X": 96,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4"
+    },
+    "Dining Chair_1": {
+        "X": 48,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Dining Chair_2": {
+        "X": 96,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Green Plush Seat": {
+        "X": 144,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Pink Plush Seat": {
+        "X": 192,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Winter Chair": {
+        "X": 240,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Groovy Chair": {
+        "X": 288,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Cute Chair": {
+        "X": 336,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Stump Seat": {
+        "X": 384,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Metal Chair": {
+        "X": 432,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Green Stool": {
+        "X": 480,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Blue Stool": {
+        "X": 496,
+        "Y": 32,
+        "Type": "chair",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "King Chair": {
+        "X": 0,
+        "Y": 64,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Crystal Chair": {
+        "X": 48,
+        "Y": 64,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Oak Bench": {
+        "X": 0,
+        "Y": 96,
+        "Type": "bench",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Walnut Bench": {
+        "X": 80,
+        "Y": 96,
+        "Type": "bench",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Birch Bench": {
+        "X": 160,
+        "Y": 96,
+        "Type": "bench",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Mahogany Bench": {
+        "X": 240,
+        "Y": 96,
+        "Type": "bench",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Modern Bench": {
+        "X": 320,
+        "Y": 96,
+        "Type": "bench",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Blue Armchair": {
+        "X": 0,
+        "Y": 144,
+        "Type": "armchair",
+        "Width": 96,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Red Armchair": {
+        "X": 96,
+        "Y": 144,
+        "Type": "armchair",
+        "Width": 96,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Green Armchair": {
+        "X": 192,
+        "Y": 144,
+        "Type": "armchair",
+        "Width": 96,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Yellow Armchair": {
+        "X": 288,
+        "Y": 144,
+        "Type": "armchair",
+        "Width": 96,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Brown Armchair": {
+        "X": 384,
+        "Y": 144,
+        "Type": "armchair",
+        "Width": 96,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Blue Couch": {
+        "X": 0,
+        "Y": 208,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Red Couch": {
+        "X": 128,
+        "Y": 208,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Green Couch": {
+        "X": 256,
+        "Y": 208,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Yellow Couch": {
+        "X": 384,
+        "Y": 208,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Brown Couch": {
+        "X": 0,
+        "Y": 256,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Dark Couch": {
+        "X": 128,
+        "Y": 256,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Wizard Couch": {
+        "X": 256,
+        "Y": 256,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Woodsy Couch": {
+        "X": 384,
+        "Y": 256,
+        "Type": "couch",
+        "Width": 128.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Oak Dresser": {
+        "X": 0,
+        "Y": 352,
+        "Type": "dresser",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Walnut Dresser": {
+        "X": 80,
+        "Y": 352,
+        "Type": "dresser",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Birch Dresser": {
+        "X": 160,
+        "Y": 352,
+        "Type": "dresser",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Mahogany Dresser": {
+        "X": 240,
+        "Y": 352,
+        "Type": "dresser",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Coffee Table": {
+        "X": 320,
+        "Y": 352,
+        "Type": "table",
+        "Width": 48.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Stone Slab": {
+        "X": 368,
+        "Y": 352,
+        "Type": "table",
+        "Width": 48.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Winter Dining Table": {
+        "X": 0,
+        "Y": 400,
+        "Type": "long table",
+        "Width": 112.0,
+        "Height": 80.0,
+        "Rotations": "2",
+        "Default_Width": 80,
+        "Default_Height": 48
+    },
+    "Festive Dining Table": {
+        "X": 112,
+        "Y": 400,
+        "Type": "long table",
+        "Width": 112.0,
+        "Height": 80.0,
+        "Rotations": "2",
+        "Default_Width": 80,
+        "Default_Height": 48
+    },
+    "Mahogany Dining Table": {
+        "X": 224,
+        "Y": 400,
+        "Type": "long table",
+        "Width": 112.0,
+        "Height": 80.0,
+        "Rotations": "2",
+        "Default_Width": 80,
+        "Default_Height": 48
+    },
+    "Modern Dining Table": {
+        "X": 336,
+        "Y": 400,
+        "Type": "long table",
+        "Width": 112.0,
+        "Height": 80.0,
+        "Rotations": "2",
+        "Default_Width": 80,
+        "Default_Height": 48
+    },
+    "Oak Table": {
+        "X": 0,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Walnut Table": {
+        "X": 32,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Birch Table": {
+        "X": 64,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Mahogany Table": {
+        "X": 96,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Sun Table": {
+        "X": 128,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Moon Table": {
+        "X": 160,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Modern Table": {
+        "X": 192,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Pub Table": {
+        "X": 224,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Luxury Table": {
+        "X": 256,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Diviner Table": {
+        "X": 288,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Neolithic Table": {
+        "X": 320,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Puzzle Table": {
+        "X": 352,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Winter Table": {
+        "X": 384,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Candy Table": {
+        "X": 416,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Luau Table": {
+        "X": 448,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Dark Table": {
+        "X": 480,
+        "Y": 560,
+        "Type": "table",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Oak Tea-Table": {
+        "X": 0,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Walnut Tea-Table": {
+        "X": 32,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Birch Tea-Table": {
+        "X": 64,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Mahogany Tea-Table": {
+        "X": 96,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Modern Tea-Table": {
+        "X": 128,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Furniture Catalogue": {
+        "X": 160,
+        "Y": 608,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "China Cabinet": {
+        "X": 0,
+        "Y": 640,
+        "Type": "other",
+        "Width": 48,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 48
+    },
+    "Artist Bookcase": {
+        "X": 48,
+        "Y": 640,
+        "Type": "bookcase",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Luxury Bookcase": {
+        "X": 80,
+        "Y": 640,
+        "Type": "bookcase",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Modern Bookcase": {
+        "X": 112,
+        "Y": 640,
+        "Type": "bookcase",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Dark Bookcase": {
+        "X": 144,
+        "Y": 640,
+        "Type": "bookcase",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Ceramic Pillar": {
+        "X": 176,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Gold Pillar": {
+        "X": 192,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Industrial Pipe": {
+        "X": 208,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Indoor Palm": {
+        "X": 224,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Totem Pole": {
+        "X": 240,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Manicured Pine": {
+        "X": 256,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Topiary Tree": {
+        "X": 272,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Standing Geode": {
+        "X": 288,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Obsidian Vase": {
+        "X": 304,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Singing Stone": {
+        "X": 320,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Sloth Skeleton L": {
+        "X": 336,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Sloth Skeleton M": {
+        "X": 352,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Sloth Skeleton R": {
+        "X": 368,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Skeleton": {
+        "X": 384,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Chicken Statue": {
+        "X": 400,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Leah's Sculpture": {
+        "X": 416,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Dried Sunflowers": {
+        "X": 432,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Catalogue": {
+        "X": 448,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Sam's Boombox": {
+        "X": 464,
+        "Y": 640,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Small Plant": {
+        "X": 288,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Table Plant": {
+        "X": 304,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Decorative Bowl": {
+        "X": 320,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Futan Bear": {
+        "X": 336,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Globe": {
+        "X": 352,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Model Ship": {
+        "X": 368,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Small Crystal": {
+        "X": 384,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Decorative Lantern": {
+        "X": 400,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "House Plant_0": {
+        "X": 0,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_1": {
+        "X": 16,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_2": {
+        "X": 32,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_3": {
+        "X": 48,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_4": {
+        "X": 64,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_5": {
+        "X": 80,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_6": {
+        "X": 96,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_7": {
+        "X": 112,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_8": {
+        "X": 128,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_9": {
+        "X": 144,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_10": {
+        "X": 160,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_11": {
+        "X": 176,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_12": {
+        "X": 192,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_13": {
+        "X": 208,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "House Plant_14": {
+        "X": 224,
+        "Y": 688,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Oak End Table": {
+        "X": 240,
+        "Y": 688,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Walnut End Table": {
+        "X": 272,
+        "Y": 688,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Birch End Table": {
+        "X": 304,
+        "Y": 688,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Mahogany End Table": {
+        "X": 336,
+        "Y": 688,
+        "Type": "table",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Modern End Table": {
+        "X": 368,
+        "Y": 688,
+        "Type": "table",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Grandmother End Table": {
+        "X": 384,
+        "Y": 688,
+        "Type": "table",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Winter End Table": {
+        "X": 400,
+        "Y": 688,
+        "Type": "table",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Calendar": {
+        "X": 416,
+        "Y": 688,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Tree of the Winter Star": {
+        "X": 0,
+        "Y": 720,
+        "Type": "decor",
+        "Width": 48,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 80
+    },
+    "Country Lamp": {
+        "X": 48,
+        "Y": 720,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Box Lamp": {
+        "X": 80,
+        "Y": 720,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Modern Lamp": {
+        "X": 112,
+        "Y": 720,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Classic Lamp": {
+        "X": 144,
+        "Y": 720,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Red Rug": {
+        "X": 176,
+        "Y": 720,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Patchwork Rug": {
+        "X": 256,
+        "Y": 720,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Dark Rug": {
+        "X": 336,
+        "Y": 720,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Budget TV": {
+        "X": 416,
+        "Y": 720,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Plasma TV": {
+        "X": 448,
+        "Y": 720,
+        "Type": "decor",
+        "Width": 48,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 48
+    },
+    "'The Muzzamaroo'": {
+        "X": 48,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'A Night On Eco-Hill'": {
+        "X": 80,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Pathways'": {
+        "X": 112,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Burnt Offering'": {
+        "X": 144,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Queen of the Gem Sea'": {
+        "X": 176,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "'Vanilla Villa'": {
+        "X": 224,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Primal Motion'": {
+        "X": 256,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Jade Hills'": {
+        "X": 288,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "'Sun #44'": {
+        "X": 336,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Wallflower Pal": {
+        "X": 368,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Spires'": {
+        "X": 400,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Highway 89'": {
+        "X": 432,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Calico Falls": {
+        "X": 464,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Needlepoint Flower": {
+        "X": 496,
+        "Y": 768,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Skull Poster": {
+        "X": 0,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Sun #45'": {
+        "X": 16,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Little Tree'": {
+        "X": 32,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Blueberries'": {
+        "X": 48,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Blue City'": {
+        "X": 64,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Little Photos": {
+        "X": 80,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Dancing Grass'": {
+        "X": 96,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'VGA Paradise'": {
+        "X": 112,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "J. Cola Light": {
+        "X": 144,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "'Kitemaster '95'": {
+        "X": 192,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Basic Window": {
+        "X": 224,
+        "Y": 800,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Small Window": {
+        "X": 256,
+        "Y": 800,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Red Cottage Rug": {
+        "X": 288,
+        "Y": 800,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Green Cottage Rug": {
+        "X": 368,
+        "Y": 800,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Monster Rug": {
+        "X": 448,
+        "Y": 800,
+        "Type": "rug",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Boarded Window": {
+        "X": 480,
+        "Y": 800,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Mystic Rug": {
+        "X": 0,
+        "Y": 832,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Lg. Futan Bear": {
+        "X": 80,
+        "Y": 832,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Junimo Plush": {
+        "X": 80,
+        "Y": 864,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Bear Statue": {
+        "X": 112,
+        "Y": 832,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 64
+    },
+    "Porthole": {
+        "X": 144,
+        "Y": 832,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Anchor": {
+        "X": 176,
+        "Y": 832,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "World Map": {
+        "X": 192,
+        "Y": 832,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Ornate Window": {
+        "X": 224,
+        "Y": 832,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor TV": {
+        "X": 256,
+        "Y": 832,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Carved Window": {
+        "X": 288,
+        "Y": 832,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Nautical Rug": {
+        "X": 144,
+        "Y": 864,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Burlap Rug": {
+        "X": 224,
+        "Y": 864,
+        "Type": "rug",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Tree Column": {
+        "X": 256,
+        "Y": 864,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "L. Light String": {
+        "X": 272,
+        "Y": 864,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 16
+    },
+    "S. Pine": {
+        "X": 304,
+        "Y": 864,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Bonsai Tree": {
+        "X": 320,
+        "Y": 864,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Metal Window": {
+        "X": 336,
+        "Y": 864,
+        "Type": "window",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Candle Lamp": {
+        "X": 368,
+        "Y": 864,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Miner's Crest": {
+        "X": 400,
+        "Y": 864,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Bamboo Mat": {
+        "X": 432,
+        "Y": 864,
+        "Type": "rug",
+        "Width": 48.0,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 32,
+        "Default_Height": 16
+    },
+    "Ornate Lamp": {
+        "X": 480,
+        "Y": 864,
+        "Type": "lamp",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Woodcut Rug": {
+        "X": 272,
+        "Y": 880,
+        "Type": "rug",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Hanging Shield": {
+        "X": 304,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Monster Danglers": {
+        "X": 320,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 16
+    },
+    "Ceiling Flags": {
+        "X": 352,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "'Red Eagle'": {
+        "X": 224,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Portrait Of A Mermaid'": {
+        "X": 256,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Solar Kingdom'": {
+        "X": 288,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Clouds'": {
+        "X": 320,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'1000 Years From Now'": {
+        "X": 352,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Three Trees'": {
+        "X": 384,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'The Serpent'": {
+        "X": 416,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Tropical Fish #173'": {
+        "X": 448,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Land Of Clay'": {
+        "X": 480,
+        "Y": 912,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Brick Fireplace": {
+        "X": 0,
+        "Y": 896,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "Stone Fireplace": {
+        "X": 32,
+        "Y": 896,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "Iridium Fireplace": {
+        "X": 64,
+        "Y": 896,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "Stove Fireplace": {
+        "X": 96,
+        "Y": 896,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "Monster Fireplace": {
+        "X": 128,
+        "Y": 896,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "My First Painting": {
+        "X": 160,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Elegant Fireplace": {
+        "X": 160,
+        "Y": 928,
+        "Type": "fireplace",
+        "Width": 32,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 80
+    },
+    "Pirate Flag": {
+        "X": 192,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Pirate Rug": {
+        "X": 224,
+        "Y": 944,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Bone Rug": {
+        "X": 192,
+        "Y": 976,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Butterfly Hutch": {
+        "X": 304,
+        "Y": 976,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Strawberry Decal": {
+        "X": 304,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Fruit Salad Rug": {
+        "X": 336,
+        "Y": 944,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Night Sky Decal #1": {
+        "X": 416,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Snowy Rug": {
+        "X": 416,
+        "Y": 976,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Night Sky Decal #2": {
+        "X": 432,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Night Sky Decal #3": {
+        "X": 448,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'The Brave Little Sapling'": {
+        "X": 0,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Mysterium'": {
+        "X": 16,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Journey Of The Prairie King: The Motion Picture'": {
+        "X": 32,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Wumbus'": {
+        "X": 48,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'The Zuzu City Express'": {
+        "X": 64,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'The Miracle At Coldstar Ranch'": {
+        "X": 80,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'Natural Wonders: Exploring Our Vibrant World'": {
+        "X": 96,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "'It Howls In The Rain'": {
+        "X": 112,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Indoor Hanging Basket": {
+        "X": 128,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Winter Tree Decal": {
+        "X": 144,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Small Junimo Plush_0": {
+        "X": 0,
+        "Y": 880,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Small Junimo Plush_1": {
+        "X": 16,
+        "Y": 880,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Small Junimo Plush_2": {
+        "X": 32,
+        "Y": 880,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Small Junimo Plush_3": {
+        "X": 48,
+        "Y": 880,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Futan Rabbit": {
+        "X": 64,
+        "Y": 880,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Wumbus Statue": {
+        "X": 432,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Bobo Statue": {
+        "X": 464,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Purple Serpent Statue": {
+        "X": 496,
+        "Y": 672,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Green Serpent Statue": {
+        "X": 496,
+        "Y": 720,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Long Palm": {
+        "X": 400,
+        "Y": 480,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 64
+    },
+    "Long Cactus": {
+        "X": 384,
+        "Y": 480,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Exotic Tree": {
+        "X": 416,
+        "Y": 480,
+        "Type": "decor",
+        "Width": 48,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 80
+    },
+    "Deluxe Tree": {
+        "X": 464,
+        "Y": 480,
+        "Type": "decor",
+        "Width": 48,
+        "Height": 80,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 80
+    },
+    "Wall Pumpkin": {
+        "X": 464,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Small Wall Pumpkin": {
+        "X": 480,
+        "Y": 944,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Bed": {
+        "X": 0,
+        "Y": 1024,
+        "Type": "bed",
+        "Width": 32,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 64
+    },
+    "Double Bed": {
+        "X": 64,
+        "Y": 1024,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Starry Double Bed": {
+        "X": 160,
+        "Y": 1024,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Strawberry Double Bed": {
+        "X": 256,
+        "Y": 1024,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Pirate Double Bed": {
+        "X": 352,
+        "Y": 1024,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Child Bed": {
+        "X": 448,
+        "Y": 1024,
+        "Type": "bed child",
+        "Width": 32,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 64
+    },
+    "Tropical Bed": {
+        "X": 0,
+        "Y": 1088,
+        "Type": "bed",
+        "Width": 32,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 64
+    },
+    "Tropical Double Bed": {
+        "X": 64,
+        "Y": 1088,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Deluxe Red Double Bed": {
+        "X": 160,
+        "Y": 1088,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Modern Double Bed": {
+        "X": 256,
+        "Y": 1088,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Large Fish Tank": {
+        "X": 0,
+        "Y": 1152,
+        "Type": "fishtank",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "Deluxe Fish Tank": {
+        "X": 128,
+        "Y": 1152,
+        "Type": "fishtank",
+        "Width": 80,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 80,
+        "Default_Height": 48
+    },
+    "Small Fish Tank": {
+        "X": 288,
+        "Y": 1152,
+        "Type": "fishtank",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Oceanic Rug": {
+        "X": 192,
+        "Y": 608,
+        "Type": "rug",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "Tropical TV": {
+        "X": 352,
+        "Y": 1152,
+        "Type": "decor",
+        "Width": 48,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 48
+    },
+    "'Volcano' Photo": {
+        "X": 400,
+        "Y": 1152,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Jungle Torch": {
+        "X": 432,
+        "Y": 1152,
+        "Type": "torch",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Palm Wall Ornament": {
+        "X": 400,
+        "Y": 1184,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "2",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Tropical Chair": {
+        "X": 96,
+        "Y": 64,
+        "Type": "chair",
+        "Width": 48,
+        "Height": 32,
+        "Rotations": "4",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Aquatic Sanctuary": {
+        "X": 0,
+        "Y": 1200,
+        "Type": "fishtank",
+        "Width": 112,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 112,
+        "Default_Height": 48
+    },
+    "Modern Fish Tank": {
+        "X": 224,
+        "Y": 1200,
+        "Type": "fishtank",
+        "Width": 32,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 48
+    },
+    "Wild Double Bed": {
+        "X": 0,
+        "Y": 1248,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Fisher Double Bed": {
+        "X": 96,
+        "Y": 1248,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Birch Double Bed": {
+        "X": 192,
+        "Y": 1248,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Exotic Double Bed": {
+        "X": 288,
+        "Y": 1248,
+        "Type": "bed double",
+        "Width": 48,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 48,
+        "Default_Height": 64
+    },
+    "Lifesaver": {
+        "X": 288,
+        "Y": 1200,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Foliage Print": {
+        "X": 304,
+        "Y": 1200,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Boat'": {
+        "X": 336,
+        "Y": 1200,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "'Vista'": {
+        "X": 368,
+        "Y": 1200,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Wall Basket": {
+        "X": 400,
+        "Y": 1200,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Decorative Trash Can": {
+        "X": 432,
+        "Y": 1200,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Iridium Krobus": {
+        "X": 448,
+        "Y": 1184,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Gourmand Statue": {
+        "X": 448,
+        "Y": 1152,
+        "Type": "decor",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Pyramid Decal": {
+        "X": 480,
+        "Y": 1152,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Plain Torch": {
+        "X": 464,
+        "Y": 1184,
+        "Type": "torch",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Stump Torch": {
+        "X": 480,
+        "Y": 1184,
+        "Type": "torch",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Flower": {
+        "X": 336,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "S. Wall Flower": {
+        "X": 352,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Clouds Banner": {
+        "X": 368,
+        "Y": 976,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Colorful Set": {
+        "X": 320,
+        "Y": 832,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Pastel Banner": {
+        "X": 0,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Winter Banner": {
+        "X": 16,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Moonlight Jellies Banner": {
+        "X": 32,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Jungle Decal_0": {
+        "X": 48,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Jungle Decal_1": {
+        "X": 64,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Jungle Decal_2": {
+        "X": 80,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Jungle Decal_3": {
+        "X": 96,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Starport Decal": {
+        "X": 112,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Decorative Pitchfork": {
+        "X": 128,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Wood Panel": {
+        "X": 144,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Decorative Axe": {
+        "X": 160,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Log Panel_0": {
+        "X": 176,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Log Panel_1": {
+        "X": 192,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Ceiling Leaves_0": {
+        "X": 400,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Ceiling Leaves_1": {
+        "X": 416,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Ceiling Leaves_2": {
+        "X": 432,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Ceiling Leaves_3": {
+        "X": 448,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Ceiling Leaves_4": {
+        "X": 464,
+        "Y": 896,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    },
+    "Cloud Decal_0": {
+        "X": 368,
+        "Y": 832,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Cloud Decal_1": {
+        "X": 448,
+        "Y": 832,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Floor Divider R_0": {
+        "X": 208,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_0": {
+        "X": 224,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_1": {
+        "X": 240,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_1": {
+        "X": 256,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_2": {
+        "X": 272,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_2": {
+        "X": 288,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_3": {
+        "X": 304,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_3": {
+        "X": 320,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_4": {
+        "X": 336,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_4": {
+        "X": 352,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_5": {
+        "X": 368,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_5": {
+        "X": 384,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_6": {
+        "X": 400,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_6": {
+        "X": 416,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider R_7": {
+        "X": 432,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Floor Divider L_7": {
+        "X": 448,
+        "Y": 1312,
+        "Type": "rug",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Light Green Rug": {
+        "X": 384,
+        "Y": 1232,
+        "Type": "rug",
+        "Width": 80.0,
+        "Height": 48.0,
+        "Rotations": "2",
+        "Default_Width": 48,
+        "Default_Height": 32
+    },
+    "'Jade Hills Extended'": {
+        "X": 384,
+        "Y": 1280,
+        "Type": "painting",
+        "Width": 64,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 32
+    },
+    "Large Brown Couch": {
+        "X": 0,
+        "Y": 1360,
+        "Type": "couch",
+        "Width": 170.66666666666666,
+        "Height": 48.0,
+        "Rotations": "4",
+        "Default_Width": 64,
+        "Default_Height": 32
+    },
+    "Large Green Rug": {
+        "X": 0,
+        "Y": 1392,
+        "Type": "rug",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "Icy Rug": {
+        "X": 96,
+        "Y": 1392,
+        "Type": "rug",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "Old World Rug": {
+        "X": 160,
+        "Y": 1392,
+        "Type": "rug",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "Large Red Rug": {
+        "X": 224,
+        "Y": 1392,
+        "Type": "rug",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "'Frozen Dreams'": {
+        "X": 160,
+        "Y": 1360,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Icy Banner": {
+        "X": 464,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Wall Palm": {
+        "X": 480,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Wall Cactus": {
+        "X": 496,
+        "Y": 1312,
+        "Type": "painting",
+        "Width": 16,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 48
+    },
+    "Large Cottage Rug": {
+        "X": 288,
+        "Y": 1392,
+        "Type": "rug",
+        "Width": 64,
+        "Height": 48,
+        "Rotations": "1",
+        "Default_Width": 64,
+        "Default_Height": 48
+    },
+    "'Physics 101'": {
+        "X": 192,
+        "Y": 1360,
+        "Type": "painting",
+        "Width": 32,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 32,
+        "Default_Height": 32
+    },
+    "Wall Sconce_0": {
+        "X": 224,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_1": {
+        "X": 256,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_2": {
+        "X": 288,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_3": {
+        "X": 320,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_4": {
+        "X": 448,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_5": {
+        "X": 448,
+        "Y": 1392,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Wall Sconce_6": {
+        "X": 480,
+        "Y": 1360,
+        "Type": "sconce",
+        "Width": 16,
+        "Height": 32,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 32
+    },
+    "Blossom Rug": {
+        "X": 352,
+        "Y": 1360,
+        "Type": "rug",
+        "Width": 96,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 96,
+        "Default_Height": 64
+    },
+    "Funky Rug": {
+        "X": 352,
+        "Y": 1424,
+        "Type": "rug",
+        "Width": 80,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 80,
+        "Default_Height": 64
+    },
+    "Modern Rug": {
+        "X": 432,
+        "Y": 1424,
+        "Type": "rug",
+        "Width": 80,
+        "Height": 64,
+        "Rotations": "1",
+        "Default_Width": 80,
+        "Default_Height": 64
+    },
+    "Squirrel Figurine": {
+        "X": 480,
+        "Y": 1392,
+        "Type": "decor",
+        "Width": 16,
+        "Height": 16,
+        "Rotations": "1",
+        "Default_Width": 16,
+        "Default_Height": 16
+    }
+}
