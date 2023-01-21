@@ -2,6 +2,7 @@
 
 import json
 import re
+from pathlib import Path
 
 import json5
 
@@ -26,3 +27,16 @@ def generate_texture_json(texture_json_path, item_name, item_type, width, height
         texture_json["Variations"] = 1
         with open(texture_json_path, "w", encoding="utf-8") as json_file:
             json.dump(texture_json, json_file, indent=4)
+
+def generate_new_manifest(mod_folder_path):
+    AT_folder_path = "[AT] " + str(mod_folder_path).lstrip("[CP] ")
+    manifest_path = Path(AT_folder_path) / "manifest.json"
+    with open(Path(mod_folder_path) / "manifest.json", "r", encoding="utf-8") as json_file:
+        manifest_json = json5.load(json_file)
+    manifest_json["Version"] = "1.0"
+    manifest_json["UniqueID"] += ".AT"
+    manifest_json["ContentPackFor"]["UniqueID"] = "PeacefulEnd.AlternativeTextures"
+    manifest_json["UpdateKeys"] = []
+    print(manifest_json)
+    with open(manifest_path, "w", encoding="utf-8") as json_file:
+        json.dump(manifest_json, json_file, indent=4)

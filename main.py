@@ -1,6 +1,7 @@
 # ! /usr/bin/python
 import shutil
 from pathlib import Path
+import os
 
 import json5
 
@@ -8,15 +9,29 @@ from src.craftables import convert_craftables
 from src.dynamic_tokens import get_config_schema, get_dynamic_tokens
 # from src.buildings import convert_buildings
 from src.foliage import convert_trees
+from src.furniture import convert_furniture
+from src.generate_jsons import generate_new_manifest
 
 if __name__ == "__main__":
     print("Reading configuration file...")
     with open("config.json", "r", encoding="utf-8") as file:
         config = json5.loads(file.read())
-    mod_folder_path = Path(config["mod_folder_path"])
+    mod_folder_path = config["mod_folder_path"]
+    if "[CP]" in mod_folder_path:
+        AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
+    else:
+        AT_folder_path = Path(f"[AT] {mod_folder_path}")
+    mod_folder_path = Path(mod_folder_path)
     keywords = config["keywords"]
     print(f"Mod folder: {mod_folder_path}")
     print(f"Keywords to use: {keywords}\n")
+
+    print("Making AT folder...")
+    if AT_folder_path.exists():
+        shutil.rmtree(AT_folder_path)
+        os.makedirs(AT_folder_path)
+    if not (AT_folder_path).exists():
+        os.makedirs(AT_folder_path)
 
     print("Cleaning up Textures/ folder...")
     # clean up after ourselves
@@ -86,7 +101,25 @@ if __name__ == "__main__":
                 keywords,
                 objects_replaced
             )
+        elif "furniture" in target:
+            objects_replaced = convert_furniture(
+                change,
+                mod_folder_path,
+                config_schema_options,
+                dynamic_tokens,
+                keywords,
+                objects_replaced
+            )
+        print()
 
+    print("Creating new manifest...")
+    generate_new_manifest(mod_folder_path)
+    print("Done.")
+    
+    print("Moving files...")
+    shutil.move(mod_folder_path / "Textures", AT_folder_path / "Textures")
+    print("Done.")
+    print()
 
-    print(f"Finished conversion. Please check files in {mod_folder_path / 'Textures'}.\n")
-    print(f"Converted items: {', '.join(objects_replaced)}")
+    print(f"Converted items: {', '.join(objects_replaced)}\n")
+    print(f"Finished conversion. Please check files in {AT_folder_path}.\n")
