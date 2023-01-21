@@ -6,12 +6,10 @@ from pathlib import Path
 
 import json5
 from PIL import Image, ImageChops
-from src.file_names import get_file_path
-from src.file_variations import get_file_variations, expand_target_variations
-from src.texture_json import generate_texture_json
+from src.file_names import get_file_path, get_file_variations, expand_target_variations
+from src.generate_jsons import generate_texture_json
 
 # TODO: do springobjects.png
-
 
 def convert_craftables(
     change,
