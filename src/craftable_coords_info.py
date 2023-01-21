@@ -78,12 +78,13 @@ def _get_craftable_coordinate_info():
                 "Height": standard_height,
             }
         else:
-            craftable_objects_dict[object_name] = {
-                "X": x_left,
-                "Y": y_top,
-                "Width": width,
-                "Height": standard_height,
-            }
+            id_name = object_name
+        craftable_objects_dict[id_name] = {
+            "X": x_left,
+            "Y": y_top,
+            "Width": width,
+            "Height": standard_height,
+        }
 
     craftable_objects_dict["Chest Color"] = {
         "X": 0,
