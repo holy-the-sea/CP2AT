@@ -6,6 +6,7 @@ A tool for converting Stardew Valley Mods from the Content Patcher framework to 
 Currently, this script supports the conversion of:
 1. Craftables
 2. Trees
+3. Furniture (but no sit, only look >:C)
 
 ## Usage
 For a better guide (with screenshots!) on how to install Python and run a Python script from command line, see Elizabeth's guides for **Windows** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Windows_guide.md#windows-detailed-pictorial-install-guide) and **Mac** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Mac_guide.md#mac-detailed-pictorial-install-guide)
