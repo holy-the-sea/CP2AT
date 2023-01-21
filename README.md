@@ -34,10 +34,10 @@ CP2AT/
     1. For Windows, open the folder in your file browser and type `cmd` into the address bar at the top.
     2. For Mac/Linux, right click and select "Open folder in Terminal"
 6. Run `main.py` using `py main.py` (or if that doesn't work, `python main.py` or `python3 main.py`)
-7. Find the new `Textures/` folder in your mod folder!
+7. Find your textures in the new `[AT]` folder!
 
 ## Known Issues
-Furniture conversion will not work if the CP's `content.json` changes more than one row of furniture sprites at a time. Will maybe be fixed in future update.
+Furniture conversion will not fully work if the CP's `content.json` changes more than one row of furniture sprites at a time. Will maybe be fixed in future update.
 
 ## To-Do:
 * Create a separate output folder for `Textures`
