@@ -66,6 +66,9 @@ def _get_furniture_coords():
             elif data[1] == "bench":
                 rot_width = width * 2.5
                 rot_height = height * 1.5
+            elif data[0] == "Large Brown Couch":
+                rot_width = width * (10 / 3)
+                rot_height = height * 2
             elif data[1] == "couch":
                 rot_width = width * (8 / 3)
                 rot_height = height * 1.5
@@ -112,9 +115,11 @@ def _get_furniture_coords():
             "X": X,
             "Y": Y,
             "Type": data[1],
-            "Width": width,
-            "Height": height,
-            "Rotations": 1
+            "Width": rot_width,
+            "Height": rot_height,
+            "Rotations": data[4],
+            "Default_Width": width,
+            "Default_Height": height
         }
     with open("src/coords_info/furniture_coords.json", "w", encoding="utf-8") as file:
         json.dump(furniture_objects_dict, file, indent=4)
