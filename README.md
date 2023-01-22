@@ -40,8 +40,8 @@ CP2AT/
 ## Known Issues
 Furniture conversion will not fully work if the CP's `content.json` changes more than one row of furniture sprites at a time. Will maybe be fixed in future update.
 
+Craftables conversions will also not fully work in the same scenario. Will work on this.
+
 ## To-Do:
-* Create a separate output folder for `Textures`
-* Add creation of the `manifest.json` file.
 * Extend script to function for springobjects, animals, buildings, etc.
 * Add argument flags for indicating Object Type when no content.json is available to scrape from (e.g. XNB conversions or PNGs from Naver)
