@@ -6,10 +6,33 @@ from pathlib import Path
 
 import json5
 from PIL import Image, ImageChops
-from src.file_names import get_file_path, get_file_variations, expand_target_variations
+from src.file_names import expand_target_variations, get_file_path, get_file_variations
 from src.generate_jsons import generate_texture_json
 
 # TODO: do springobjects.png
+
+
+def split_craftables_replacement(
+    tilesheet_coords, dimension_name, craftable_objects_info
+):
+    tilesheet_X = tilesheet_coords["X"]
+    tilesheet_Y = tilesheet_coords["Y"]
+    section_width = tilesheet_coords["Width"]
+    sprite_X = tilesheet_X
+    if dimension_name == "Width":
+        object_list = []
+        while tilesheet_X <= sprite_X < tilesheet_X + section_width:
+            if (sprite_X, tilesheet_Y) not in craftable_objects_info.keys():
+                sprite_X += 16
+            else:
+                object_list.append(
+                    craftable_objects_info[(sprite_X, tilesheet_Y)]["Object"]
+                )
+                sprite_X += 16
+        return object_list
+    if dimension_name == "Height":
+        raise NotImplementedError("lol i don't even know gl hf")
+
 
 def convert_craftables(
     change,
@@ -26,7 +49,7 @@ def convert_craftables(
         encoding="utf-8",
     ) as json_file:
         craftable_objects_info = json5.loads(json_file.read())
-    craftable_objects_info = {
+    craftable_coords_info = {
         (value["X"], value["Y"]): {
             "Object": key,
             "Height": value["Height"],
@@ -70,10 +93,32 @@ def convert_craftables(
         tilesheet_coords = change["ToArea"]
         tilesheet_X = tilesheet_coords["X"]
         tilesheet_Y = tilesheet_coords["Y"]
-        object_name = craftable_objects_info[(tilesheet_X, tilesheet_Y)]["Object"]
-        if object_name == "Campfire_1":
-            object_name = "Cookout Kit"
-        print(f"Item replacement known: {object_name}")
+        try:
+            replacement_width = craftable_coords_info[(tilesheet_X, tilesheet_Y)][
+                "Width"
+            ]
+            replacement_height = craftable_coords_info[(tilesheet_X, tilesheet_Y)][
+                "Height"
+            ]
+            object_name = craftable_coords_info[(tilesheet_X, tilesheet_Y)]["Object"]
+            if object_name == "Campfire_1":
+                object_name = "Cookout Kit"
+            print(f"Item replacement known: {object_name}")
+            object_list = [object_name]
+            if (
+                tilesheet_coords["Width"] != replacement_width
+                or tilesheet_coords["Height"] != replacement_height
+            ):
+                print("Consecutive objects in X-direction replaced, splitting...")
+                # TODO: implement here
+                object_list = split_craftables_replacement(
+                    tilesheet_coords, "Width", craftable_coords_info
+                )
+        except KeyError:
+            print(
+                f"Couldn't find an object with the coordinates ({tilesheet_X}, {tilesheet_Y})"
+            )
+            return objects_replaced
     else:
         print(
             "Item names not found from content.json, must do object identification by comparing sprites instead"
@@ -94,41 +139,46 @@ def convert_craftables(
         else:
             file_season = False
 
-        if "object_name" in locals():
-            new_file_path = get_file_path(
-                file, object_name, mod_folder_path, file_season
-            )
-            # * asset is an individual sprite
-            if "FromArea" not in change:
-                im.save(new_file_path)
-                image_variations.append(im)
-            # * asset was a tilesheet
-            else:
-                X = change["FromArea"]["X"]
-                Y = change["FromArea"]["Y"]
-                width = change["FromArea"]["Width"]
-                height = change["FromArea"]["Height"]
-                X_right = X + width
-                Y_bottom = Y + height
-                im = im.crop((X, Y, X_right, Y_bottom))
-                im.save(new_file_path)
-                image_variations.append(im)
-                print(f"Cropped {object_name} from {Path(file)}.\n")
-            # * update list of which objects we have replaced
-            objects_replaced[object_name] = image_variations
-            texture_json_path = Path(new_file_path).parent / "texture.json"
-            generate_texture_json(
-                texture_json_path,
-                object_name,
-                "Craftable",
-                16,
-                32,
-                keywords,
-                file_season,
-            )
+        if "object_list" in locals():
+            for object_name in object_list:
+                new_file_path = get_file_path(
+                    file, object_name, mod_folder_path, file_season
+                )
+                # * asset is an individual sprite
+                if "FromArea" not in change:
+                    im.save(new_file_path)
+                    image_variations.append(im)
+                # * asset was a tilesheet
+                else:
+                    # X = change["FromArea"]["X"]
+                    # Y = change["FromArea"]["Y"]
+                    # width = change["FromArea"]["Width"]
+                    # height = change["FromArea"]["Height"]
+                    X = craftable_objects_info[object_name]["X"]
+                    Y = craftable_objects_info[object_name]["Y"]
+                    width = craftable_objects_info[object_name]["Width"]
+                    height = craftable_objects_info[object_name]["Height"]
+                    X_right = X + width
+                    Y_bottom = Y + height
+                    im_cropped = im.crop((X, Y, X_right, Y_bottom))
+                    im_cropped.save(new_file_path)
+                    image_variations.append(im_cropped)
+                    print(f"Cropped {object_name} from {Path(file)}.")
+                # * update list of which objects we have replaced
+                objects_replaced[object_name] = image_variations
+                texture_json_path = Path(new_file_path).parent / "texture.json"
+                generate_texture_json(
+                    texture_json_path,
+                    object_name,
+                    "Craftable",
+                    16,
+                    32,
+                    keywords,
+                    file_season,
+                )
         else:
             print("Trying to identify...")
-            for coords, values in craftable_objects_info.items():
+            for coords, values in craftable_coords_info.items():
                 object_name = values["Object"]
                 if object_name == "Campfire_1":
                     object_name = "Cookout Kit"
