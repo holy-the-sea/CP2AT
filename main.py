@@ -26,13 +26,6 @@ if __name__ == "__main__":
     print(f"Mod folder: {mod_folder_path}")
     print(f"Keywords to use: {keywords}\n")
 
-    print("Making AT folder...")
-    if AT_folder_path.exists():
-        shutil.rmtree(AT_folder_path)
-        os.makedirs(AT_folder_path)
-    if not (AT_folder_path).exists():
-        os.makedirs(AT_folder_path)
-
     print("Cleaning up Textures/ folder...")
     # clean up after ourselves
     if (mod_folder_path / "Textures").exists():
@@ -43,6 +36,14 @@ if __name__ == "__main__":
     content_json_path = mod_folder_path / "content.json"
     with open(content_json_path, encoding="utf-8") as json_file:
         content_json = json5.loads(json_file.read())
+    print("Done.\n")
+
+    print("Making AT folder...")
+    if AT_folder_path.exists():
+        shutil.rmtree(AT_folder_path)
+        os.makedirs(AT_folder_path)
+    if not (AT_folder_path).exists():
+        os.makedirs(AT_folder_path)
     print("Done.\n")
 
     # check for ConfigSchema and DynamicTokens
@@ -62,11 +63,13 @@ if __name__ == "__main__":
                 continue
         except KeyError:
             pass
+        #TODO: fix weather-specific skins?
         try:
             if any("weather" in key.lower() for key in change["When"]):
                 continue
         except KeyError:
             pass
+        #TODO: paste overlay images to create another texture
         try:
             if change["PatchMode"] == "Overlay":
                 continue
@@ -114,12 +117,11 @@ if __name__ == "__main__":
 
     print("Creating new manifest...")
     generate_new_manifest(mod_folder_path)
-    print("Done.")
-    
+    print("Done.\n")
+
     print("Moving files...")
     shutil.move(mod_folder_path / "Textures", AT_folder_path / "Textures")
-    print("Done.")
-    print()
+    print("Done.\n")
 
     print(f"Converted items: {', '.join(objects_replaced)}\n")
     print(f"Finished conversion. Please check files in {AT_folder_path}.\n")
