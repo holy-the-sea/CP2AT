@@ -29,7 +29,7 @@ def generate_texture_json(texture_json_path, item_name, item_type, width, height
             json.dump(texture_json, json_file, indent=4)
 
 def generate_new_manifest(mod_folder_path):
-    AT_folder_path = "[AT] " + str(mod_folder_path).lstrip("[CP] ")
+    AT_folder_path = re.sub("[CP] ", "[AT] ", mod_folder_path)
     manifest_path = Path(AT_folder_path) / "manifest.json"
     with open(Path(mod_folder_path) / "manifest.json", "r", encoding="utf-8") as json_file:
         manifest_json = json5.load(json_file)
