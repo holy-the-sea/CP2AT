@@ -67,7 +67,7 @@ def _get_furniture_coords():
                 rot_width = width * 2.5
                 rot_height = height * 1.5
             elif data[0] == "Large Brown Couch":
-                rot_width = width * (10 / 3)
+                rot_width = width * 2.5
                 rot_height = height * 2
             elif data[1] == "couch":
                 rot_width = width * (8 / 3)
@@ -96,8 +96,8 @@ def _get_furniture_coords():
                 "X": X,
                 "Y": Y,
                 "Type": data[1],
-                "Width": rot_width,
-                "Height": rot_height,
+                "Width": int(rot_width),
+                "Height": int(rot_height),
                 "Rotations": data[4]
             }
 
@@ -115,8 +115,8 @@ def _get_furniture_coords():
             "X": X,
             "Y": Y,
             "Type": data[1],
-            "Width": rot_width,
-            "Height": rot_height,
+            "Width": int(rot_width),
+            "Height": int(rot_height),
             "Rotations": data[4],
             "Default_Width": width,
             "Default_Height": height
