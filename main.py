@@ -32,18 +32,20 @@ if __name__ == "__main__":
         shutil.rmtree(mod_folder_path / "Textures")
     print("Done.\n")
 
-    print("Loading content.json...")
-    content_json_path = mod_folder_path / "content.json"
-    with open(content_json_path, encoding="utf-8") as json_file:
-        content_json = json5.loads(json_file.read())
-    print("Done.\n")
-
     print("Making AT folder...")
     if AT_folder_path.exists():
         shutil.rmtree(AT_folder_path)
         os.makedirs(AT_folder_path)
+        # os.makedirs(AT_folder_path / "Textures")
     if not (AT_folder_path).exists():
         os.makedirs(AT_folder_path)
+        # os.makedirs(AT_folder_path / "Textures")
+    print("Done.\n")
+
+    print("Loading content.json...")
+    content_json_path = mod_folder_path / "content.json"
+    with open(content_json_path, encoding="utf-8") as json_file:
+        content_json = json5.loads(json_file.read())
     print("Done.\n")
 
     # check for ConfigSchema and DynamicTokens
@@ -116,11 +118,11 @@ if __name__ == "__main__":
         print()
 
     print("Creating new manifest...")
-    generate_new_manifest(mod_folder_path)
+    generate_new_manifest(mod_folder_path, AT_folder_path)
     print("Done.\n")
 
     print("Moving files...")
-    shutil.move(mod_folder_path / "Textures", AT_folder_path / "Textures")
+    shutil.move(mod_folder_path / "Textures", AT_folder_path)
     print("Done.\n")
 
     print(f"Converted items: {', '.join(objects_replaced)}\n")

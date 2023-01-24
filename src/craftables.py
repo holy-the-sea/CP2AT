@@ -110,7 +110,6 @@ def convert_craftables(
                 or tilesheet_coords["Height"] != replacement_height
             ):
                 print("Consecutive objects in X-direction replaced, splitting...")
-                # TODO: implement here
                 object_list = split_craftables_replacement(
                     tilesheet_coords, "Width", craftable_coords_info
                 )
@@ -150,10 +149,6 @@ def convert_craftables(
                     image_variations.append(im)
                 # * asset was a tilesheet
                 else:
-                    # X = change["FromArea"]["X"]
-                    # Y = change["FromArea"]["Y"]
-                    # width = change["FromArea"]["Width"]
-                    # height = change["FromArea"]["Height"]
                     X = craftable_objects_info[object_name]["X"]
                     Y = craftable_objects_info[object_name]["Y"]
                     width = craftable_objects_info[object_name]["Width"]
@@ -182,16 +177,23 @@ def convert_craftables(
                 object_name = values["Object"]
                 if object_name == "Campfire_1":
                     object_name = "Cookout Kit"
-                width = values["Width"]
-                height = values["Height"]
+                object_width = values["Width"]
+                object_height = values["Height"]
 
-                im_vanilla = Image.open(target_file).convert("RGB")
                 X, Y = [*coords]
-                X_right = X + width
-                Y_bottom = Y + height
+                X_right = X + object_width
+                Y_bottom = Y + object_height
+
+                im_vanilla = Image.open(target_file).convert("RGBA")
+                background = Image.new("RGBA", im_vanilla.size, "white")
+                background.paste(im_vanilla, (0, 0), im_vanilla)
+                im_vanilla = background
                 im_cropped_vanilla = im_vanilla.crop((X, Y, X_right, Y_bottom))
 
-                im_mod = Image.open(mod_folder_path / file).convert("RGB")
+                im_mod = Image.open(mod_folder_path / file).convert("RGBA")
+                background = Image.new("RGBA", im_mod.size, "white")
+                background.paste(im_mod, (0, 0), im_mod)
+                im_mod = background
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
