@@ -20,7 +20,15 @@ def get_file_path(file, object_name, mod_folder_path, file_season):
     )
     new_folder_path = Path(new_folder_path)
     if not new_folder_path.exists():
-        new_folder_path.mkdir(parents=True, exist_ok=True)
+        try:
+            new_folder_path.mkdir(parents=True, exist_ok=True)
+        except NotADirectoryError:
+            print(f"'{new_folder_path}' is an invalid folder name, please check manually.")
+            new_folder_path = re.sub(r":", "_", str(new_folder_path), flags=re.IGNORECASE)
+            new_folder_path = Path(new_folder_path)
+            new_folder_path.mkdir(parents=True, exist_ok=True)
+
+
     for _, _, files in os.walk(new_folder_path):
         texture_num = len(
             [file for file in files if re.match(r"texture_\d+.png", file)]
