@@ -20,7 +20,12 @@ if __name__ == "__main__":
     if "[CP]" in mod_folder_path:
         AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
     else:
-        AT_folder_path = Path(f"[AT] {mod_folder_path}")
+        if '\\' in mod_folder_path:
+            mod_folder_path = mod_folder_path.split("\\")
+            mod_folder_path[-1] = f"[AT] {mod_folder_path[-1]}"
+            AT_folder_path = "\\".join(mod_folder_path)
+        else:
+            AT_folder_path = f"[AT] {mod_folder_path}"
     mod_folder_path = Path(mod_folder_path)
     keywords = config["keywords"]
     print(f"Mod folder: {mod_folder_path}")
