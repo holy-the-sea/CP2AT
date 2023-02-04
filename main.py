@@ -18,7 +18,7 @@ if __name__ == "__main__":
         config = json5.loads(file.read())
     mod_folder_path = config["mod_folder_path"]
     if 'output_folder_path' in config:
-        AT_folder_path = config['output_folder_path']
+        AT_folder_path = Path(config['output_folder_path'])
     else:
         if "[CP]" in mod_folder_path:
             AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
@@ -26,9 +26,9 @@ if __name__ == "__main__":
             if '\\' in mod_folder_path:
                 mod_folder_path = mod_folder_path.split("\\")
                 mod_folder_path[-1] = f"[AT] {mod_folder_path[-1]}"
-                AT_folder_path = "\\".join(mod_folder_path)
+                AT_folder_path = Path("\\".join(mod_folder_path))
             else:
-                AT_folder_path = f"[AT] {mod_folder_path}"
+                AT_folder_path = Path(f"[AT] {mod_folder_path}")
     mod_folder_path = Path(mod_folder_path)
     keywords = config["keywords"]
     print(f"Mod folder: {mod_folder_path}")
