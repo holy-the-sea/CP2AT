@@ -1,6 +1,6 @@
 # ! /usr/bin/python
 import shutil
-from pathlib import Path
+from pathlib import Path, PurePath
 from os import path
 import os
 
@@ -24,10 +24,11 @@ if __name__ == "__main__":
         if "[CP]" in mod_folder_path:
             AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
         else:
-            if '\\' in mod_folder_path:
-                mod_folder_path = mod_folder_path.split("\\")
-                mod_folder_path[-1] = f"[AT] {mod_folder_path[-1]}"
-                AT_folder_path = Path("\\".join(mod_folder_path))
+            if os.path.sep in mod_folder_path:
+                last_elem = PurePath(mod_folder_path).name
+                last_elem = f"[AT] {last_elem}"
+                mod_folder_path = PurePath(mod_folder_path).parent 
+                AT_folder_path = Path(os.path.sep.join(mod_folder_path, last_elem))
             else:
                 AT_folder_path = Path(f"[AT] {mod_folder_path}")
     mod_folder_path = Path(mod_folder_path)
