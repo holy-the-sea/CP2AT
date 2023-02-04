@@ -1,6 +1,7 @@
 # ! /usr/bin/python
 import shutil
 from pathlib import Path
+from os import path
 import os
 
 import json5
@@ -130,7 +131,9 @@ if __name__ == "__main__":
     print("Done.\n")
 
     print("Moving files...")
-    shutil.move(mod_folder_path / "Textures", AT_folder_path)
+    print(f"Moving content.json... {mod_folder_path}")
+    mod_folder_textures_path = path.join(mod_folder_path, "Textures")
+    shutil.move(mod_folder_textures_path, AT_folder_path)
     print("Done.\n")
 
     print(f"Converted items: {', '.join(objects_replaced)}\n")
