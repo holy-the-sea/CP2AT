@@ -1,6 +1,7 @@
 # ! /usr/bin/python
 import shutil
-from pathlib import Path
+from pathlib import Path, PurePath
+from os import path
 import os
 
 import json5
@@ -17,10 +18,19 @@ if __name__ == "__main__":
     with open("config.json", "r", encoding="utf-8") as file:
         config = json5.loads(file.read())
     mod_folder_path = config["mod_folder_path"]
-    if "[CP]" in mod_folder_path:
-        AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
+    if 'output_folder_path' in config:
+        AT_folder_path = Path(config['output_folder_path'])
     else:
-        AT_folder_path = Path(f"[AT] {mod_folder_path}")
+        if "[CP]" in mod_folder_path:
+            AT_folder_path = Path(mod_folder_path.replace("[CP]", "[AT]"))
+        else:
+            if os.path.sep in mod_folder_path:
+                last_elem = PurePath(mod_folder_path).name
+                last_elem = f"[AT] {last_elem}"
+                mod_folder_path = PurePath(mod_folder_path).parent 
+                AT_folder_path = Path(os.path.sep.join(mod_folder_path, last_elem))
+            else:
+                AT_folder_path = Path(f"[AT] {mod_folder_path}")
     mod_folder_path = Path(mod_folder_path)
     keywords = config["keywords"]
     print(f"Mod folder: {mod_folder_path}")
@@ -122,7 +132,9 @@ if __name__ == "__main__":
     print("Done.\n")
 
     print("Moving files...")
-    shutil.move(mod_folder_path / "Textures", AT_folder_path)
+    print(f"Moving content.json... {mod_folder_path}")
+    mod_folder_textures_path = path.join(mod_folder_path, "Textures")
+    shutil.move(mod_folder_textures_path, AT_folder_path)
     print("Done.\n")
 
     print(f"Converted items: {', '.join(objects_replaced)}\n")
