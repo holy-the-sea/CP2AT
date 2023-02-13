@@ -1,0 +1,4214 @@
+{
+    "Weeds_0": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_0": {
+        "X": 32,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_1": {
+        "X": 64,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wild Horseradish": {
+        "X": 256,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Daffodil": {
+        "X": 288,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Leek": {
+        "X": 320,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dandelion": {
+        "X": 352,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+    },
+    "Parsnip": {
+        "X": 0,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lumber": {
+        "X": 96,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+    },
+    "Emerald": {
+        "X": 192,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Aquamarine": {
+        "X": 224,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ruby": {
+        "X": 256,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Amethyst": {
+        "X": 288,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Topaz": {
+        "X": 320,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jade": {
+        "X": 352,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Trimmed Lucky Purple Shorts": {
+        "X": 368,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Diamond": {
+        "X": 0,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prismatic Shard": {
+        "X": 32,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_2": {
+        "X": 48,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_3": {
+        "X": 64,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_4": {
+        "X": 80,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cave Carrot": {
+        "X": 96,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Secret Note": {
+        "X": 112,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Quartz": {
+        "X": 128,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fire Quartz": {
+        "X": 160,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Frozen Tear": {
+        "X": 192,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Earth Crystal": {
+        "X": 224,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coconut": {
+        "X": 256,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cactus Fruit": {
+        "X": 288,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sap": {
+        "X": 320,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Torch": {
+        "X": 336,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spirit Torch": {
+        "X": 352,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_5": {
+        "X": 368,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarf Scroll I": {
+        "X": 0,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarf Scroll II": {
+        "X": 16,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarf Scroll III": {
+        "X": 32,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarf Scroll IV": {
+        "X": 48,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chipped Amphora": {
+        "X": 64,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Arrowhead": {
+        "X": 80,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lost Book": {
+        "X": 96,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Doll": {
+        "X": 112,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Elvish Jewelry": {
+        "X": 128,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chewing Stick": {
+        "X": 144,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ornamental Fan": {
+        "X": 160,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dinosaur Egg": {
+        "X": 176,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rare Disc": {
+        "X": 192,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Sword": {
+        "X": 208,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rusty Spoon": {
+        "X": 224,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rusty Spur": {
+        "X": 240,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rusty Cog": {
+        "X": 256,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chicken Statue": {
+        "X": 272,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Seed": {
+        "X": 288,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Tool": {
+        "X": 304,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dried Starfish": {
+        "X": 320,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Anchor": {
+        "X": 336,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glass Shards": {
+        "X": 352,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bone Flute": {
+        "X": 368,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Handaxe": {
+        "X": 0,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarvish Helm": {
+        "X": 16,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarf Gadget": {
+        "X": 32,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Drum": {
+        "X": 48,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Mask": {
+        "X": 64,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Relic": {
+        "X": 80,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Strange Doll_0": {
+        "X": 96,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Strange Doll_1": {
+        "X": 112,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pufferfish": {
+        "X": 128,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Anchovy": {
+        "X": 144,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tuna": {
+        "X": 160,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sardine": {
+        "X": 176,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bream": {
+        "X": 192,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Largemouth Bass": {
+        "X": 256,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Smallmouth Bass": {
+        "X": 272,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rainbow Trout": {
+        "X": 288,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Salmon": {
+        "X": 304,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Walleye": {
+        "X": 320,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Perch": {
+        "X": 336,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Carp": {
+        "X": 352,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Catfish": {
+        "X": 368,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pike": {
+        "X": 0,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sunfish": {
+        "X": 16,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Mullet": {
+        "X": 32,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Herring": {
+        "X": 48,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Eel": {
+        "X": 64,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Octopus": {
+        "X": 80,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Snapper": {
+        "X": 96,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Squid": {
+        "X": 112,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Seaweed": {
+        "X": 128,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Green Algae": {
+        "X": 144,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sea Cucumber": {
+        "X": 160,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Super Cucumber": {
+        "X": 176,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ghostfish": {
+        "X": 192,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "White Algae": {
+        "X": 208,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stonefish": {
+        "X": 224,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crimsonfish": {
+        "X": 240,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Angler": {
+        "X": 256,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ice Pip": {
+        "X": 272,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lava Eel": {
+        "X": 288,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Legend": {
+        "X": 304,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sandfish": {
+        "X": 320,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Scorpion Carp": {
+        "X": 336,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Treasure Chest": {
+        "X": 352,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Joja Cola": {
+        "X": 368,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+    },
+    "Trash": {
+        "X": 0,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Driftwood": {
+        "X": 16,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Broken Glasses": {
+        "X": 32,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Broken CD": {
+        "X": 48,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Soggy Newspaper": {
+        "X": 64,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Egg_1": {
+        "X": 128,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Large Egg_0": {
+        "X": 96,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hay": {
+        "X": 160,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Egg_3": {
+        "X": 192,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Large Egg_1": {
+        "X": 224,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Milk": {
+        "X": 256,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Large Milk": {
+        "X": 288,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Green Bean": {
+        "X": 320,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cauliflower": {
+        "X": 352,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ornate Necklace": {
+        "X": 368,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+    },
+    "Potato": {
+        "X": 0,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fried Egg": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Omelet": {
+        "X": 48,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Salad": {
+        "X": 64,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cheese Cauliflower": {
+        "X": 80,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Baked Fish": {
+        "X": 96,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Parsnip Soup": {
+        "X": 112,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Vegetable Medley": {
+        "X": 128,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Complete Breakfast": {
+        "X": 144,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fried Calamari": {
+        "X": 160,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Strange Bun": {
+        "X": 176,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lucky Lunch": {
+        "X": 192,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fried Mushroom": {
+        "X": 208,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pizza": {
+        "X": 224,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bean Hotpot": {
+        "X": 240,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glazed Yams": {
+        "X": 256,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Carp Surprise": {
+        "X": 272,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hashbrowns": {
+        "X": 288,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pancakes": {
+        "X": 304,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Salmon Dinner": {
+        "X": 320,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fish Taco": {
+        "X": 336,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crispy Bass": {
+        "X": 352,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pepper Poppers": {
+        "X": 368,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bread": {
+        "X": 0,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tom Kha Soup": {
+        "X": 32,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Trout Soup": {
+        "X": 48,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chocolate Cake": {
+        "X": 64,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pink Cake": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rhubarb Pie": {
+        "X": 96,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cookie": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spaghetti": {
+        "X": 128,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fried Eel": {
+        "X": 144,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spicy Eel": {
+        "X": 160,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sashimi": {
+        "X": 176,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Maki Roll": {
+        "X": 192,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tortilla": {
+        "X": 208,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Plate": {
+        "X": 224,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Eggplant Parmesan": {
+        "X": 240,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rice Pudding": {
+        "X": 256,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ice Cream": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blueberry Tart": {
+        "X": 288,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Autumn's Bounty": {
+        "X": 304,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pumpkin Soup": {
+        "X": 320,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Super Meal": {
+        "X": 336,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cranberry Sauce": {
+        "X": 352,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stuffing": {
+        "X": 368,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+    },
+    "Farmer's Lunch": {
+        "X": 0,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Survival Burger": {
+        "X": 16,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dish O' The Sea": {
+        "X": 32,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Miner's Treat": {
+        "X": 48,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Roots Platter": {
+        "X": 64,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sugar": {
+        "X": 80,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wheat Flour": {
+        "X": 96,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Oil": {
+        "X": 112,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Garlic": {
+        "X": 128,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Kale": {
+        "X": 160,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tea Sapling": {
+        "X": 176,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rhubarb": {
+        "X": 192,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Triple Shot Espresso": {
+        "X": 208,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Melon": {
+        "X": 224,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tomato": {
+        "X": 256,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Morel": {
+        "X": 272,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blueberry": {
+        "X": 288,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fiddlehead Fern": {
+        "X": 304,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hot Pepper": {
+        "X": 320,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Desert": {
+        "X": 336,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wheat": {
+        "X": 352,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radish": {
+        "X": 0,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Cabbage": {
+        "X": 32,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Starfruit": {
+        "X": 64,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Corn": {
+        "X": 96,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Unmilled Rice": {
+        "X": 112,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Eggplant": {
+        "X": 128,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rice Shoot": {
+        "X": 144,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Artichoke": {
+        "X": 160,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Artifact Trove": {
+        "X": 176,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pumpkin": {
+        "X": 192,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wilted Bouquet": {
+        "X": 208,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bok Choy": {
+        "X": 224,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magic Rock Candy": {
+        "X": 240,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Yam": {
+        "X": 256,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chanterelle": {
+        "X": 272,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cranberries": {
+        "X": 288,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Holly": {
+        "X": 304,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Beet": {
+        "X": 320,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cherry Bomb": {
+        "X": 352,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bomb": {
+        "X": 368,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mega Bomb": {
+        "X": 0,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_7": {
+        "X": 32,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Brick Floor": {
+        "X": 80,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Twig_0": {
+        "X": 96,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Twig_1": {
+        "X": 112,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Salmonberry": {
+        "X": 128,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Grass Starter": {
+        "X": 144,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hardwood Fence": {
+        "X": 160,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Amaranth Seeds": {
+        "X": 176,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Amaranth": {
+        "X": 192,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Grape Starter": {
+        "X": 208,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hops Starter": {
+        "X": 224,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pale Ale": {
+        "X": 240,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hops": {
+        "X": 256,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Void Egg": {
+        "X": 272,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mayonnaise": {
+        "X": 288,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Duck Mayonnaise": {
+        "X": 304,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Void Mayonnaise": {
+        "X": 320,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Acorn": {
+        "X": 336,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Maple Seed": {
+        "X": 352,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pine Cone": {
+        "X": 368,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_1": {
+        "X": 16,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_2": {
+        "X": 32,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_3": {
+        "X": 48,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_4": {
+        "X": 64,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_5": {
+        "X": 80,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_6": {
+        "X": 96,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_7": {
+        "X": 112,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_8": {
+        "X": 128,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_9": {
+        "X": 144,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wood Fence": {
+        "X": 160,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone Fence": {
+        "X": 176,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iron Fence": {
+        "X": 192,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Gate": {
+        "X": 208,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dwarvish Translation Guide": {
+        "X": 224,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wood Floor": {
+        "X": 256,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone Floor": {
+        "X": 272,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Clay": {
+        "X": 288,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weathered Floor": {
+        "X": 304,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crystal Floor": {
+        "X": 336,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Copper Bar": {
+        "X": 352,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iron Bar": {
+        "X": 368,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+    },
+    "Gold Bar": {
+        "X": 0,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iridium Bar": {
+        "X": 16,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Refined Quartz": {
+        "X": 32,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Honey": {
+        "X": 64,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tea Set": {
+        "X": 80,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pickles": {
+        "X": 96,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_10": {
+        "X": 112,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jelly": {
+        "X": 128,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Beer": {
+        "X": 160,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rare Seed": {
+        "X": 176,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wine": {
+        "X": 192,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Energy Tonic": {
+        "X": 208,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Juice": {
+        "X": 224,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Muscle Remedy": {
+        "X": 240,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+    },
+    "Basic Fertilizer": {
+        "X": 128,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Quality Fertilizer": {
+        "X": 144,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Basic Retaining Soil": {
+        "X": 160,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Quality Retaining Soil": {
+        "X": 176,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Clam": {
+        "X": 192,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Pumpkin": {
+        "X": 208,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Copper Ore": {
+        "X": 288,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iron Ore": {
+        "X": 320,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coal": {
+        "X": 352,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Gold Ore": {
+        "X": 0,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iridium Ore": {
+        "X": 32,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wood": {
+        "X": 64,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_11": {
+        "X": 96,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Nautilus Shell": {
+        "X": 128,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coral": {
+        "X": 144,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rainbow Shell": {
+        "X": 160,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coffee": {
+        "X": 176,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spice Berry": {
+        "X": 192,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sea Urchin": {
+        "X": 208,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Grape": {
+        "X": 224,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spring Onion": {
+        "X": 240,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Strawberry": {
+        "X": 256,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Straw Floor": {
+        "X": 272,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sweet Pea": {
+        "X": 288,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Field Snack": {
+        "X": 304,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Common Mushroom": {
+        "X": 320,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wood Path": {
+        "X": 336,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wild Plum": {
+        "X": 352,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Gravel Path": {
+        "X": 368,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hazelnut": {
+        "X": 0,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crystal Path": {
+        "X": 16,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blackberry": {
+        "X": 32,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cobblestone Path": {
+        "X": 48,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Winter Root": {
+        "X": 64,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blue Slime Egg": {
+        "X": 80,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crystal Fruit": {
+        "X": 96,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stepping Stone Path": {
+        "X": 112,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Snow Yam": {
+        "X": 128,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sweet Gem Berry": {
+        "X": 144,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crocus": {
+        "X": 160,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Vinegar": {
+        "X": 176,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Mushroom": {
+        "X": 192,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sunflower": {
+        "X": 208,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Purple Mushroom": {
+        "X": 224,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rice": {
+        "X": 240,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cheese": {
+        "X": 256,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Goat Cheese": {
+        "X": 288,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cloth": {
+        "X": 320,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Truffle": {
+        "X": 352,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Truffle Oil": {
+        "X": 0,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coffee Bean": {
+        "X": 16,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stardrop": {
+        "X": 32,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Goat Milk": {
+        "X": 64,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Slime Egg": {
+        "X": 80,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "L. Goat Milk": {
+        "X": 96,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Purple Slime Egg": {
+        "X": 112,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wool": {
+        "X": 128,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Explosive Ammo": {
+        "X": 144,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Duck Egg": {
+        "X": 160,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Duck Feather": {
+        "X": 192,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rabbit's Foot": {
+        "X": 224,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Aged Roe": {
+        "X": 240,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone Base": {
+        "X": 272,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_14": {
+        "X": 288,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_10": {
+        "X": 320,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Fruit": {
+        "X": 352,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Algae Soup": {
+        "X": 0,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pale Broth": {
+        "X": 16,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bouquet": {
+        "X": 32,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mead": {
+        "X": 48,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mermaid's Pendant": {
+        "X": 64,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Decorative Pot": {
+        "X": 80,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Drum Block": {
+        "X": 112,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Flute Block": {
+        "X": 128,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Speed-Gro": {
+        "X": 144,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Deluxe Speed-Gro": {
+        "X": 160,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Parsnip Seeds": {
+        "X": 256,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bean Starter": {
+        "X": 272,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cauliflower Seeds": {
+        "X": 288,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Potato Seeds": {
+        "X": 304,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Garlic Seeds": {
+        "X": 320,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Kale Seeds": {
+        "X": 336,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rhubarb Seeds": {
+        "X": 352,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Melon Seeds": {
+        "X": 368,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tomato Seeds": {
+        "X": 0,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blueberry Seeds": {
+        "X": 16,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pepper Seeds": {
+        "X": 32,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wheat Seeds": {
+        "X": 48,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radish Seeds": {
+        "X": 64,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Red Cabbage Seeds": {
+        "X": 80,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Starfruit Seeds": {
+        "X": 96,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Corn Seeds": {
+        "X": 112,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Eggplant Seeds": {
+        "X": 128,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Artichoke Seeds": {
+        "X": 144,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pumpkin Seeds": {
+        "X": 160,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bok Choy Seeds": {
+        "X": 176,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Yam Seeds": {
+        "X": 192,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cranberry Seeds": {
+        "X": 208,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Beet Seeds": {
+        "X": 224,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spring Seeds": {
+        "X": 240,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Summer Seeds": {
+        "X": 256,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fall Seeds": {
+        "X": 272,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Winter Seeds": {
+        "X": 288,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ancient Seeds": {
+        "X": 304,
+        "Y": 320,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tulip Bulb": {
+        "X": 304,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jazz Seeds": {
+        "X": 336,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Poppy Seeds": {
+        "X": 336,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spangle Seeds": {
+        "X": 368,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sunflower Seeds": {
+        "X": 368,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fairy Seeds": {
+        "X": 272,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+    },
+    "Small Glow Ring": {
+        "X": 192,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glow Ring": {
+        "X": 208,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Small Magnet Ring": {
+        "X": 224,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magnet Ring": {
+        "X": 240,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Slime Charmer Ring": {
+        "X": 256,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warrior Ring": {
+        "X": 272,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Vampire Ring": {
+        "X": 288,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Savage Ring": {
+        "X": 304,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ring of Yoba": {
+        "X": 320,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sturdy Ring": {
+        "X": 336,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Burglar's Ring": {
+        "X": 352,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iridium Band": {
+        "X": 368,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jukebox Ring": {
+        "X": 0,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Amethyst Ring": {
+        "X": 16,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Topaz Ring": {
+        "X": 32,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Aquamarine Ring": {
+        "X": 48,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jade Ring": {
+        "X": 64,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Emerald Ring": {
+        "X": 80,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ruby Ring": {
+        "X": 96,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Geode": {
+        "X": 112,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Frozen Geode": {
+        "X": 128,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magma Geode": {
+        "X": 144,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Alamite": {
+        "X": 160,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bixite": {
+        "X": 176,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Baryte": {
+        "X": 192,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Aerinite": {
+        "X": 208,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Calcite": {
+        "X": 224,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dolomite": {
+        "X": 240,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Esperite": {
+        "X": 256,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fluorapatite": {
+        "X": 272,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Geminite": {
+        "X": 288,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Helvite": {
+        "X": 304,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jamborite": {
+        "X": 320,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jagoite": {
+        "X": 336,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Kyanite": {
+        "X": 352,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lunarite": {
+        "X": 368,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+    },
+    "Malachite": {
+        "X": 0,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Neptunite": {
+        "X": 16,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lemon Stone": {
+        "X": 32,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Nekoite": {
+        "X": 48,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Orpiment": {
+        "X": 64,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Petrified Slime": {
+        "X": 80,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Thunder Egg": {
+        "X": 96,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pyrite": {
+        "X": 112,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ocean Stone": {
+        "X": 128,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ghost Crystal": {
+        "X": 144,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tigerseye": {
+        "X": 160,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jasper": {
+        "X": 176,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Opal": {
+        "X": 192,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fire Opal": {
+        "X": 208,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Celestine": {
+        "X": 224,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Marble": {
+        "X": 240,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sandstone": {
+        "X": 256,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Granite": {
+        "X": 272,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Basalt": {
+        "X": 288,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Limestone": {
+        "X": 304,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Soapstone": {
+        "X": 320,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hematite": {
+        "X": 336,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mudstone": {
+        "X": 352,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Obsidian": {
+        "X": 368,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+    },
+    "Slate": {
+        "X": 0,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fairy Stone": {
+        "X": 16,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Star Shards": {
+        "X": 32,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Scapula": {
+        "X": 48,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Tibia": {
+        "X": 64,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Skull": {
+        "X": 80,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Skeletal Hand": {
+        "X": 96,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Rib": {
+        "X": 112,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prehistoric Vertebra": {
+        "X": 128,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Skeletal Tail": {
+        "X": 144,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Nautilus Fossil": {
+        "X": 160,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Amphibian Fossil": {
+        "X": 176,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Palm Fossil": {
+        "X": 192,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Trilobite": {
+        "X": 208,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Artifact Spot": {
+        "X": 224,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tulip": {
+        "X": 240,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Summer Spangle": {
+        "X": 272,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fairy Rose": {
+        "X": 304,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blue Jazz": {
+        "X": 336,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sprinkler": {
+        "X": 368,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+    },
+    "Poppy": {
+        "X": 256,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+    },
+    "Plum Pudding": {
+        "X": 64,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Artichoke Dip": {
+        "X": 80,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stir Fry": {
+        "X": 96,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Roasted Hazelnuts": {
+        "X": 112,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pumpkin Pie": {
+        "X": 128,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radish Salad": {
+        "X": 144,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fruit Salad": {
+        "X": 160,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blackberry Cobbler": {
+        "X": 176,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cranberry Candy": {
+        "X": 192,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Apple": {
+        "X": 208,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Green Tea": {
+        "X": 224,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bruschetta": {
+        "X": 288,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Quality Sprinkler": {
+        "X": 336,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iridium Sprinkler": {
+        "X": 336,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Coleslaw": {
+        "X": 0,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fiddlehead Risotto": {
+        "X": 16,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+    },
+    "Poppyseed Muffin": {
+        "X": 48,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cherry Sapling": {
+        "X": 64,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Apricot Sapling": {
+        "X": 80,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Orange Sapling": {
+        "X": 96,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Peach Sapling": {
+        "X": 112,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pomegranate Sapling": {
+        "X": 128,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Apple Sapling": {
+        "X": 144,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Apricot": {
+        "X": 160,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Orange": {
+        "X": 176,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Peach": {
+        "X": 192,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pomegranate": {
+        "X": 208,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cherry": {
+        "X": 224,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_18": {
+        "X": 320,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_19": {
+        "X": 352,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_11": {
+        "X": 32,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_12": {
+        "X": 48,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_13": {
+        "X": 64,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_14": {
+        "X": 80,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_15": {
+        "X": 96,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_16": {
+        "X": 112,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Green Slime Egg": {
+        "X": 128,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rain Totem": {
+        "X": 144,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mutant Carp": {
+        "X": 160,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bug Meat": {
+        "X": 192,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bait": {
+        "X": 208,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spinner": {
+        "X": 224,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dressed Spinner": {
+        "X": 240,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Farm": {
+        "X": 256,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Mountains": {
+        "X": 272,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Beach": {
+        "X": 288,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Barbed Hook": {
+        "X": 304,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lead Bobber": {
+        "X": 320,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Treasure Hunter": {
+        "X": 336,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Trap Bobber": {
+        "X": 352,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cork Bobber": {
+        "X": 368,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+    },
+    "Sturgeon": {
+        "X": 32,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tiger Trout": {
+        "X": 48,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bullhead": {
+        "X": 64,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tilapia": {
+        "X": 80,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chub": {
+        "X": 96,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magnet": {
+        "X": 112,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dorado": {
+        "X": 128,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Albacore": {
+        "X": 144,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Shad": {
+        "X": 160,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lingcod": {
+        "X": 176,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Halibut": {
+        "X": 192,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hardwood": {
+        "X": 208,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crab Pot": {
+        "X": 224,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lobster": {
+        "X": 304,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crayfish": {
+        "X": 320,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crab": {
+        "X": 336,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cockle": {
+        "X": 352,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mussel": {
+        "X": 368,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+    },
+    "Shrimp": {
+        "X": 0,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Snail": {
+        "X": 16,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Periwinkle": {
+        "X": 32,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Oyster": {
+        "X": 48,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Maple Syrup": {
+        "X": 64,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Oak Resin": {
+        "X": 80,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pine Tar": {
+        "X": 96,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Chowder": {
+        "X": 112,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lobster Bisque": {
+        "X": 160,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fish Stew": {
+        "X": 128,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Escargot": {
+        "X": 144,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Maple Bar": {
+        "X": 176,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crab Cakes": {
+        "X": 192,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Shrimp Cocktail": {
+        "X": 208,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Woodskip": {
+        "X": 224,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+    },
+    "Strawberry Seeds": {
+        "X": 16,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Jack-O-Lantern": {
+        "X": 32,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rotten Plant_0": {
+        "X": 48,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rotten Plant_1": {
+        "X": 64,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Omni Geode": {
+        "X": 80,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_17": {
+        "X": 96,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_20": {
+        "X": 112,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_21": {
+        "X": 256,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_22": {
+        "X": 288,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_23": {
+        "X": 320,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_24": {
+        "X": 336,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Slime": {
+        "X": 352,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bat Wing": {
+        "X": 368,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+    },
+    "Solar Essence": {
+        "X": 0,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Void Essence": {
+        "X": 16,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mixed Seeds": {
+        "X": 32,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fiber": {
+        "X": 48,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Oil of Garlic": {
+        "X": 64,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Life Elixir": {
+        "X": 80,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wild Bait": {
+        "X": 96,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glacierfish": {
+        "X": 112,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_18": {
+        "X": 256,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_19": {
+        "X": 272,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_20": {
+        "X": 288,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Battery Pack": {
+        "X": 304,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lost Axe": {
+        "X": 320,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lucky Purple Shorts": {
+        "X": 336,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Berry Basket": {
+        "X": 352,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_21": {
+        "X": 0,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_22": {
+        "X": 16,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_23": {
+        "X": 32,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Void Salmon": {
+        "X": 48,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Slimejack": {
+        "X": 64,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pearl": {
+        "X": 80,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Midnight Squid": {
+        "X": 96,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Spook Fish": {
+        "X": 112,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blobfish": {
+        "X": 128,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wedding Ring": {
+        "X": 144,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cactus Seeds": {
+        "X": 160,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Iridium Milk": {
+        "X": 176,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tree Fertilizer": {
+        "X": 208,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dinosaur Mayonnaise": {
+        "X": 240,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Void Ghost Pendant": {
+        "X": 256,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Movie Ticket": {
+        "X": 272,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Crabshell Ring": {
+        "X": 288,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Napalm Ring": {
+        "X": 304,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Roe": {
+        "X": 320,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Caviar": {
+        "X": 208,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+    },
+    "Squid Ink": {
+        "X": 352,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tea Leaves": {
+        "X": 368,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+    },
+    "Flounder": {
+        "X": 48,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Seafoam Pudding": {
+        "X": 16,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Midnight Carp": {
+        "X": 80,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mahogany Seed": {
+        "X": 64,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ostrich Egg": {
+        "X": 16,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_25": {
+        "X": 16,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Walnut": {
+        "X": 16,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Banana Sapling": {
+        "X": 336,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+    },
+    "Banana": {
+        "X": 304,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Coconut": {
+        "X": 368,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_26": {
+        "X": 0,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_27": {
+        "X": 16,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_28": {
+        "X": 32,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_29": {
+        "X": 48,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fossilized Skull": {
+        "X": 64,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fossilized Spine": {
+        "X": 80,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fossilized Tail": {
+        "X": 96,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fossilized Leg": {
+        "X": 112,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fossilized Ribs": {
+        "X": 128,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Snake Skull": {
+        "X": 144,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Snake Vertebrae": {
+        "X": 160,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mummified Bat": {
+        "X": 176,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mummified Frog": {
+        "X": 192,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ginger": {
+        "X": 208,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Taro Root": {
+        "X": 224,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Taro Tuber": {
+        "X": 240,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pineapple": {
+        "X": 256,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pineapple Seeds": {
+        "X": 272,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mango": {
+        "X": 288,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mango Sapling": {
+        "X": 304,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stingray": {
+        "X": 320,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lionfish": {
+        "X": 336,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Blue Discus": {
+        "X": 352,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Thorns Ring": {
+        "X": 368,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+    },
+    "Rustic Plank Floor": {
+        "X": 0,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone Walkway Floor": {
+        "X": 16,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Journal Scrap": {
+        "X": 32,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_31": {
+        "X": 48,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_32": {
+        "X": 64,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_33": {
+        "X": 80,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_34": {
+        "X": 96,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_35": {
+        "X": 112,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cinder Shard": {
+        "X": 128,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_36": {
+        "X": 144,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stone_37": {
+        "X": 160,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magma Cap": {
+        "X": 176,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Dragon Tooth": {
+        "X": 192,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Curiosity Lure": {
+        "X": 256,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tiger Slime Egg": {
+        "X": 272,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Qi Gem": {
+        "X": 288,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Lucky Ring": {
+        "X": 304,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hot Java Ring": {
+        "X": 320,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Protection Ring": {
+        "X": 336,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Soul Sapper Ring": {
+        "X": 352,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "Phoenix Ring": {
+        "X": 368,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+    },
+    "War Memento": {
+        "X": 0,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Gourmet Tomato Salt": {
+        "X": 16,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Stardew Valley Rose": {
+        "X": 32,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Advanced TV Remote": {
+        "X": 48,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Arctic Shard": {
+        "X": 64,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Wriggling Worm": {
+        "X": 80,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pirate's Locket": {
+        "X": 96,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fairy Dust": {
+        "X": 128,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pi\u00f1a Colada": {
+        "X": 144,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bug Steak": {
+        "X": 160,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ectoplasm": {
+        "X": 176,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Prismatic Jelly": {
+        "X": 192,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Quality Bobber": {
+        "X": 208,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Monster Musk": {
+        "X": 240,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Combined Ring": {
+        "X": 256,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Bone Fragment": {
+        "X": 272,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_24": {
+        "X": 288,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_25": {
+        "X": 304,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Weeds_26": {
+        "X": 320,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fiber Seeds": {
+        "X": 336,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Island": {
+        "X": 352,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Immunity Band": {
+        "X": 368,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glowstone Ring": {
+        "X": 0,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Qi Fruit": {
+        "X": 16,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Qi Bean": {
+        "X": 32,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mushroom Tree Seed": {
+        "X": 48,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Warp Totem: Qi's Arena": {
+        "X": 64,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fireworks (Red)": {
+        "X": 80,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fireworks (Purple)": {
+        "X": 96,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Fireworks (Green)": {
+        "X": 112,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Galaxy Soul": {
+        "X": 128,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pierre's Missing Stocklist": {
+        "X": 144,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Son of Crimsonfish": {
+        "X": 160,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ms. Angler": {
+        "X": 176,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Legend II": {
+        "X": 192,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radioactive Carp": {
+        "X": 208,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Glacierfish Jr.": {
+        "X": 224,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Ginger Ale": {
+        "X": 240,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Banana Pudding": {
+        "X": 256,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Mango Sticky Rice": {
+        "X": 272,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Poi": {
+        "X": 288,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Tropical Curry": {
+        "X": 304,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Magic Bait": {
+        "X": 320,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radioactive Ore": {
+        "X": 336,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Radioactive Bar": {
+        "X": 352,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Horse Flute": {
+        "X": 368,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+    },
+    "Enricher": {
+        "X": 16,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Pressure Nozzle": {
+        "X": 48,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Qi Seasoning": {
+        "X": 80,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hyper Speed-Gro": {
+        "X": 96,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Deluxe Fertilizer": {
+        "X": 112,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Deluxe Retaining Soil": {
+        "X": 128,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Squid Ink Ravioli": {
+        "X": 144,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "SupplyCrate_0": {
+        "X": 160,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "SupplyCrate_1": {
+        "X": 176,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "SupplyCrate_2": {
+        "X": 192,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Slime Crate": {
+        "X": 208,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Cookout Kit": {
+        "X": 224,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Camping Stove": {
+        "X": 240,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Golden Egg": {
+        "X": 256,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "Hedge": {
+        "X": 272,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    },
+    "???": {
+        "X": 288,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+    }
+}
