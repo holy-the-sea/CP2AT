@@ -9,8 +9,6 @@ from PIL import Image, ImageChops
 from src.file_names import expand_target_variations, get_file_path, get_file_variations
 from src.generate_jsons import generate_texture_json
 
-# TODO: do springobjects.png
-
 
 def split_craftables_replacement(
     tilesheet_coords, dimension_name, craftable_objects_info
@@ -198,6 +196,13 @@ def convert_craftables(
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
                 if diff.getbbox() is not None:  # got a hit
+                    # make sure it's not just random transparent pixels
+                    mod_colors = sorted([x for x in im_cropped_mod.getcolors()])
+                    mod_transparencies = [x[3] for _, x in mod_colors]
+                    if all([x != 255 for x in mod_transparencies]) or all(
+                        [x == (255, 255, 255, 255) for _, x in mod_colors]
+                    ):
+                        continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)
                     im_mod = Image.open(mod_folder_path / file)
