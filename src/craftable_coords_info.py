@@ -92,12 +92,6 @@ def _get_craftable_coordinate_info():
         "Width": 96,
         "Height": 64,
     }
-    craftable_objects_dict["Chest Steel Fittings"] = {
-        "X": 32,
-        "Y": 512,
-        "Width": 96,
-        "Height": 32,
-    }
     craftable_objects_dict["Chest Color Steel Fittings"] = {
         "X": 0,
         "Y": 704,

@@ -5,8 +5,11 @@ import re
 from pathlib import Path
 
 import json5
+import numpy as np
 from PIL import Image, ImageChops
-from src.file_names import expand_target_variations, get_file_path, get_file_variations
+
+from src.file_names import (expand_target_variations, get_file_path,
+                            get_file_variations)
 from src.generate_jsons import generate_texture_json
 
 
@@ -195,13 +198,17 @@ def convert_craftables(
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
-                if diff.getbbox() is not None:  # got a hit
+                if object_name == "Strange Capsule":
+                    pass
+                if diff.getbbox() is None and np.sum(np.array(diff.getdata())) < 5000:
+                    continue
+                if sorted(im_cropped_vanilla.getcolors()) != sorted(im_cropped_mod.getcolors()):  # got a hit
                     # make sure it's not just random transparent pixels
                     mod_colors = sorted([x for x in im_cropped_mod.getcolors()])
                     mod_transparencies = [x[3] for _, x in mod_colors]
-                    if all([x != 255 for x in mod_transparencies]) or all(
-                        [x == (255, 255, 255, 255) for _, x in mod_colors]
-                    ):
+                    if all(x != 255 for x in mod_transparencies) or all(
+                        x == (255, 255, 255, 255) for _, x in mod_colors
+                    ) or all(x == (0, 0, 0, 255) for _, x in mod_colors):
                         continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)
