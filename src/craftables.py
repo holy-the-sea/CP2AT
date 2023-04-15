@@ -203,12 +203,17 @@ def convert_craftables(
                 if diff.getbbox() is None and np.sum(np.array(diff.getdata())) < 5000:
                     continue
                 if sorted(im_cropped_vanilla.getcolors(1024)) != sorted(im_cropped_mod.getcolors(1024)):  # got a hit
-                    # make sure it's not just random transparent pixels
-                    mod_colors = sorted([x for x in im_cropped_mod.getcolors(1024)])
+                    # make sure it's not just random transparent pi
+                    mod_colors = sorted(x for x in im_cropped_mod.getcolors(1024))
                     mod_transparencies = [x[3] for _, x in mod_colors]
-                    if all(x != 255 for x in mod_transparencies) or all(
-                        x == (255, 255, 255, 255) for _, x in mod_colors
-                    ) or all(x == (0, 0, 0, 255) for _, x in mod_colors):
+                    # mod image has no solid pixels
+                    if all(x != 255 for x in mod_transparencies):
+                        continue
+                    # mod is (mostly) all black image
+                    elif all(all(x > 250 for x in y[:2]) for _, y in mod_colors):
+                        continue
+                    # mod is (mostly) all white image
+                    elif all(all(x < 5 for x in y[:2]) for _, y in mod_colors):
                         continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)
