@@ -2,11 +2,14 @@
 ## About
 A tool for converting Stardew Valley Mods from the Content Patcher framework to the Alternative Textures framework. For more information on the Content Patcher framework, see [here](https://github.com/Pathoschild/StardewMods/tree/develop/ContentPatcher/docs). For more information on the Alternative Textures framework, see [here](https://github.com/Floogen/AlternativeTextures/wiki/).
 
+This script relies on comparing the asset provided by the mod to the vanilla asset from the game. All vanilla Stardew Valley assets can be unpacked from the game using [StardewXnbHack](https://github.com/Pathoschild/StardewXnbHack#readme), and belong to ConcernedApe.
+
 ## Features
 Currently, this script supports the conversion of:
 1. TileSheets/Craftables.png
 2. Fruit Trees & Trees
 3. TileSheets/Furniture.png (but no sit, only look >:C)
+4. Farm Buildings
 
 ## Usage
 For a better guide (with screenshots!) on how to install Python and run a Python script from command line, see Elizabeth's guides for **Windows** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Windows_guide.md#windows-detailed-pictorial-install-guide) and **Mac** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Mac_guide.md#mac-detailed-pictorial-install-guide)
