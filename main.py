@@ -8,7 +8,7 @@ import json5
 
 from src.craftables import convert_craftables
 from src.dynamic_tokens import get_config_schema, get_dynamic_tokens
-# from src.buildings import convert_buildings
+from src.buildings import convert_buildings
 from src.foliage import convert_trees
 from src.furniture import convert_furniture
 from src.generate_jsons import generate_new_manifest
@@ -98,15 +98,15 @@ if __name__ == "__main__":
                 keywords,
                 objects_replaced,
             )
-        # elif "buildings" in target:
-        #     objects_replaced = convert_buildings(
-        #         change,
-        #         mod_folder_path,
-        #         config_schema_options,
-        #         dynamic_tokens,
-        #         keywords,
-        #         objects_replaced
-        #     )
+        elif "buildings" in target:
+            objects_replaced = convert_buildings(
+                change,
+                mod_folder_path,
+                config_schema_options,
+                dynamic_tokens,
+                keywords,
+                objects_replaced
+            )
         elif "tree" in target:
             objects_replaced = convert_trees(
                 change,
@@ -125,6 +125,8 @@ if __name__ == "__main__":
                 keywords,
                 objects_replaced
             )
+        else:
+            print(f"Not Implemented: {target}")
         print()
 
     print("Creating new manifest...")
