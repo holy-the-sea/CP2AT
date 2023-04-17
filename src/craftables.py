@@ -198,8 +198,6 @@ def convert_craftables(
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
-                if object_name == "Strange Capsule":
-                    pass
                 if diff.getbbox() is None and np.sum(np.array(diff.getdata())) < 5000:
                     continue
                 if sorted(im_cropped_vanilla.getcolors(1024)) != sorted(im_cropped_mod.getcolors(1024)):  # got a hit
@@ -210,10 +208,10 @@ def convert_craftables(
                     if all(x != 255 for x in mod_transparencies):
                         continue
                     # mod is (mostly) all black image
-                    elif all(all(x > 250 for x in y[:2]) for _, y in mod_colors):
+                    if all(all(x > 250 for x in y[:2]) for _, y in mod_colors):
                         continue
                     # mod is (mostly) all white image
-                    elif all(all(x < 5 for x in y[:2]) for _, y in mod_colors):
+                    if all(all(x < 5 for x in y[:2]) for _, y in mod_colors):
                         continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)

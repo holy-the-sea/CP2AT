@@ -219,7 +219,22 @@ def convert_furniture(
                     im_cropped_mod = merge_large_brown_couch(im_cropped_mod)
 
                 diff = ImageChops.difference(im_cropped_vanilla, im_cropped_mod)
-                if diff.getbbox() is not None: # got a hit
+                if diff.getbbox() is None and np.sum(np.array(diff.getdata())) < 5000: # got a hit
+                    continue
+                num_colors = im_cropped_mod.size[0] * im_cropped_mod.size[1]
+                if sorted(im_cropped_vanilla.getcolors(num_colors)) != sorted(im_cropped_mod.getcolors(num_colors)):
+                    # make sure it's not just random transparent pixels
+                    mod_colors = sorted(x for x in im_cropped_mod.getcolors(num_colors))
+                    mod_transparencies = [x[3] for _, x in mod_colors]
+                    # mod image has no solid pixels
+                    if all(x != 255 for x in mod_transparencies):
+                        continue
+                    # mod is (mostly) all black image
+                    if all(all(x > 250 for x in y[:2]) for _, y in mod_colors):
+                        continue
+                    # mod is (mostly) all white image
+                    if all(all(x < 5 for x in y[:2]) for _, y in mod_colors):
+                        continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
                     im_vanilla = Image.open(target_file)
                     im_mod = Image.open(mod_folder_path / file)

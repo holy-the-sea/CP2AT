@@ -20,7 +20,6 @@ def convert_buildings(
 ):
     file = change["FromFile"]
     target = change["Target"]
-    target_file = Path(target.lower()).with_suffix(".png")
     building = Path(target).stem
     print(f"Converting {building}...")
 
@@ -46,7 +45,7 @@ def convert_buildings(
         )
     file_variations = expand_target_variations(
         file_variations,
-        target_file,
+        file,
         mod_folder_path,
         config_schema_options,
         dynamic_tokens,
@@ -63,13 +62,14 @@ def convert_buildings(
     else:
         # TODO: fix this escape
         X, Y = False, False
-        width, height = Image.open(target_file).size
         
 
     for file in file_variations:
         if re.search("{{.*?}}", file):
             continue
         im = Image.open(mod_folder_path / file)
+        if "FromArea" not in change:
+            width, height = im.size
 
         # * check if seasonal variations
         if found_seasons or any(
@@ -110,7 +110,7 @@ def convert_buildings(
                     im_house.save(
                         farmhouse_folder / f"texture_{texture_num}.png"
                     )  # ! save
-                    house_image_variations[f"house_{i}"].append(im_house.capitalize())
+                    house_image_variations[f"house_{i}"].append(im_house)
                     texture_json_path = farmhouse_folder / "texture.json"
                     generate_texture_json(
                         texture_json_path,
