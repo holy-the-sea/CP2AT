@@ -64,7 +64,6 @@ def merge_large_brown_couch(im_object):
     im_merge.paste(im3, (im1.width + im2.width, 0))
     return im_merge
 
-@profile
 def convert_furniture(
     change,
     mod_folder_path,
