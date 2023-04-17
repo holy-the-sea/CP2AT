@@ -28,7 +28,7 @@ if __name__ == "__main__":
                 last_elem = PurePath(mod_folder_path).name
                 last_elem = f"[AT] {last_elem}"
                 mod_folder_path = PurePath(mod_folder_path).parent 
-                AT_folder_path = Path(os.path.sep.join(mod_folder_path, last_elem))
+                AT_folder_path = Path(os.path.join(mod_folder_path, last_elem))
             else:
                 AT_folder_path = Path(f"[AT] {mod_folder_path}")
     mod_folder_path = Path(mod_folder_path)
