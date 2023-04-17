@@ -8,9 +8,17 @@ import json5
 import numpy as np
 from PIL import Image, ImageChops
 
-from src.file_names import get_file_path, get_file_variations, expand_target_variations
+from src.file_names import (expand_target_variations, get_file_path,
+                            get_file_variations)
 from src.generate_jsons import generate_texture_json
 
+# load the furniture json bc it's huge
+with open(
+    Path(os.getcwd()) / "src/coords_info/furniture_coords.json",
+    "r",
+    encoding="utf-8",
+) as json_file:
+    furniture_objects_info = json5.loads(json_file.read())
 
 def split_replacement(
     tilesheet_coords,
@@ -56,6 +64,7 @@ def merge_large_brown_couch(im_object):
     im_merge.paste(im3, (im1.width + im2.width, 0))
     return im_merge
 
+@profile
 def convert_furniture(
     change,
     mod_folder_path,
@@ -64,12 +73,6 @@ def convert_furniture(
     keywords,
     objects_replaced,
 ):
-    with open(
-        Path(os.getcwd()) / "src/coords_info/furniture_coords.json",
-        "r",
-        encoding="utf-8",
-    ) as json_file:
-        furniture_objects_info = json5.loads(json_file.read())
     furniture_coords_info = {
         (value["X"], value["Y"]): {
             "Object": key,
@@ -144,31 +147,36 @@ def convert_furniture(
         if "object_list" in locals():
             for object_name in object_list:
                 data = furniture_objects_info[object_name]
-                X = data["X"]
-                Y = data["Y"]
-                object_width = data["Width"]
-                object_height = data["Height"]
                 object_type = data["Type"]
-                X_right = X + object_width
-                Y_bottom = Y + object_height
                 new_file_path = get_file_path(
                     file, object_name, mod_folder_path, file_season
                 )
-
-                im_object = im.crop((X, Y, X_right, Y_bottom))
-                if object_type == "rug":
-                    im_merge = merge_rug_sprites(im_object)
-                    im_merge.save(new_file_path)
-                    image_variations.append(im_merge)
-                elif object_name == "Large Brown Couch":
-                    im_merge = merge_large_brown_couch(im_object)
-                    im_merge.save(new_file_path)
-                    image_variations.append(im_merge)
+                if "FromArea" in change:
+                    X = change["FromArea"]["X"]
+                    Y = change["FromArea"]["Y"]
+                    object_width = change["FromArea"]["Width"]
+                    object_height = change["FromArea"]["Height"]
+                    X_right = X + object_width
+                    Y_bottom = Y + object_height
+                    im_object = im.crop((X, Y, X_right, Y_bottom))
+                    if object_type == "rug":
+                        im_merge = merge_rug_sprites(im_object)
+                        im_merge.save(new_file_path)
+                        image_variations.append(im_merge)
+                    elif object_name == "Large Brown Couch":
+                        im_merge = merge_large_brown_couch(im_object)
+                        im_merge.save(new_file_path)
+                        image_variations.append(im_merge)
+                    else:
+                        im_object.save(new_file_path)
+                        image_variations.append(im_object)
+                    print(f"Cropped {object_name} from {Path(file)}.")
                 else:
+                    im_object = im
+                    object_width, object_height = im_object.size
                     im_object.save(new_file_path)
                     image_variations.append(im_object)
                 objects_replaced[object_name] = image_variations
-                print(f"Cropped {object_name} from {Path(file)}.")
 
                 # * add json
                 texture_json_path = Path(new_file_path).parent / "texture.json"
