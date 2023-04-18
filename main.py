@@ -11,6 +11,7 @@ from src.dynamic_tokens import get_config_schema, get_dynamic_tokens
 from src.buildings import convert_buildings
 from src.foliage import convert_trees
 from src.furniture import convert_furniture
+from src.animals import convert_animals
 from src.generate_jsons import generate_new_manifest
 
 if __name__ == "__main__":
@@ -127,6 +128,15 @@ if __name__ == "__main__":
             )
         elif "furniturefront" in target:
             continue
+        elif "animals" in target:
+            objects_replaced = convert_animals(
+                change,
+                mod_folder_path,
+                config_schema_options,
+                dynamic_tokens,
+                keywords,
+                objects_replaced
+            )
         else:
             print(f"Not Implemented: {target}")
         print()

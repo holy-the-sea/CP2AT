@@ -86,52 +86,53 @@ def convert_buildings(
         # farmhouses need to be split into different upgrades for Alternative Textures
         if target.lower() == "buildings/houses":
             house_height = 144
-            if X is False:
-                for i in range(3):
-                    house_Y = Y + house_height * i
-                    house_Y_bottom = house_height * (i + 1)
-                    X = 0
-                    X_right = 160
-                    im_house = Image.new("RGBA", (160, 144))
-                    im_cropped_house = im.crop((X, house_Y, X_right, house_Y_bottom))
-                    im_house.paste(im_cropped_house, (0, 0), im_cropped_house)
-                    farmhouse_folder = Path(new_file_path).parent / f"Farmhouse_{i}"
-                    if not farmhouse_folder.exists():
-                        os.mkdir(farmhouse_folder)
-                    for _, _, files in os.walk(farmhouse_folder):
-                        texture_num = len(
-                            [
-                                file
-                                for file in files
-                                if re.match(r"texture_\d+.png", file)
-                            ]
-                        )
-                        break
-                    im_house.save(
-                        farmhouse_folder / f"texture_{texture_num}.png"
-                    )  # ! save
-                    house_image_variations[f"house_{i}"].append(im_house)
-                    texture_json_path = farmhouse_folder / "texture.json"
-                    generate_texture_json(
-                        texture_json_path,
-                        building,
-                        "Building",
-                        320,
-                        144,
-                        keywords,
-                        file_season,
+            if X is not False:
+                im = im.crop((X, Y, X_right, Y_bottom))
+            for i in range(3):
+                house_Y = Y + house_height * i
+                house_Y_bottom = house_height * (i + 1)
+                X = 0
+                X_right = 160
+                im_house = Image.new("RGBA", (160, 144))
+                im_cropped_house = im.crop((X, house_Y, X_right, house_Y_bottom))
+                im_house.paste(im_cropped_house, (0, 0), im_cropped_house)
+                farmhouse_folder = Path(new_file_path).parent / f"Farmhouse_{i}"
+                if not farmhouse_folder.exists():
+                    os.mkdir(farmhouse_folder)
+                for _, _, files in os.walk(farmhouse_folder):
+                    texture_num = len(
+                        [
+                            file
+                            for file in files
+                            if re.match(r"texture_\d+.png", file)
+                        ]
                     )
+                    break
+                im_house.save(
+                    farmhouse_folder / f"texture_{texture_num}.png"
+                )  # ! save
+                house_image_variations[f"house_{i}"].append(im_house)
+                texture_json_path = farmhouse_folder / "texture.json"
+                generate_texture_json(
+                    texture_json_path,
+                    building,
+                    "Building",
+                    320,
+                    144,
+                    keywords,
+                    file_season,
+                )
+            if "FromArea" not in change:
                 X = False
         # TODO: add PaintMasks
 
         else:
             if X:
                 im = im.crop((X, Y, X_right, Y_bottom))
-                im.save(new_file_path)  # ! save
-                image_variations.append(im)
-            else:
-                im.save(new_file_path)  # ! save
-                image_variations.append(im)
+            if target.lower() == "buildings/greenhouse" and im.size != (240, 320):
+                continue
+            im.save(new_file_path)  # ! save
+            image_variations.append(im)
             texture_json_path = Path(new_file_path).parent / "texture.json"
             generate_texture_json(
                 texture_json_path,
@@ -144,8 +145,8 @@ def convert_buildings(
             )
     if target.lower() == "buildings/houses":
         objects_replaced.update(house_image_variations)
-        print(f"Done converting {building}.\n")
+        print(f"Done converting {building}.")
         return objects_replaced
     objects_replaced[building] = image_variations
-    print(f"Done converting {building}.\n")
+    print(f"Done converting {building}.")
     return objects_replaced
