@@ -8,7 +8,7 @@ This script relies on comparing the asset provided by the mod to the vanilla ass
 Currently, this script supports the conversion of:
 1. TileSheets/Craftables.png
 2. Fruit Trees & Trees
-3. TileSheets/Furniture.png (but no sit, only look >:C)
+3. TileSheets/Furniture.png
 4. Farm Buildings
 
 ## Usage
@@ -41,9 +41,9 @@ CP2AT/
 7. Find your textures in the new `[AT]` folder!
 
 ## Known Issues
-Furniture conversion will not fully work if the CP's `content.json` changes more than one row of furniture sprites at a time. Will maybe be fixed in future update.
-
-Craftables conversions will also not fully work in the same scenario. Will work on this.
+* Furniture conversion will not fully work if the CP's `content.json` changes more than one row of furniture sprites at a time. Will maybe be fixed in future update.
+* * Craftables conversions will also not fully work in the same scenario. Will work on this.
+* `furnitureFront` conversion is not currently thoroughly tested, please check those textures carefully after the script is done.
 
 ## To-Do:
 * Extend script to function for springobjects, animals, etc.
