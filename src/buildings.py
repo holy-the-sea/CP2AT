@@ -73,10 +73,10 @@ def convert_buildings(
 
         # * check if seasonal variations
         if found_seasons or any(
-            x in file for x in ["spring", "summer", "fall", "winter"]
+            x in file.lower() for x in ["spring", "summer", "fall", "winter"]
         ):
             file_season = (
-                re.search(r"(spring|summer|fall|winter)", file).group(1).capitalize()
+                re.search(r"(spring|summer|fall|winter)", file, re.IGNORECASE).group(1)
             )
         else:
             file_season = False
@@ -121,6 +121,7 @@ def convert_buildings(
                         keywords,
                         file_season,
                     )
+                X = False
         # TODO: add PaintMasks
 
         else:

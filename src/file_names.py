@@ -9,10 +9,17 @@ from itertools import product
 def get_file_path(file, object_name, mod_folder_path, file_season):
     object_name = re.sub(r"_\d+", "", object_name)
     new_folder_path = (mod_folder_path / file).parent
+    if object_name in str(new_folder_path):
+        new_folder_path = new_folder_path.parent
     if file_season is not False:
+        while file_season in str(new_folder_path):
+            new_folder_path = new_folder_path.parent
         new_folder_path = new_folder_path / file_season
     else:
-        new_folder_path = new_folder_path / "ALL"
+        if "ALL" not in str(new_folder_path):
+            new_folder_path = new_folder_path / "ALL"
+        else:
+            pass
     new_folder_path = new_folder_path / object_name
 
     new_folder_path = re.sub(
@@ -20,7 +27,7 @@ def get_file_path(file, object_name, mod_folder_path, file_season):
     )
     new_folder_path = re.sub(r"\?", "_", new_folder_path)
     new_folder_path = re.sub(r":", "_", new_folder_path)
-    
+
     new_folder_path = Path(new_folder_path)
     if not new_folder_path.exists():
         try:

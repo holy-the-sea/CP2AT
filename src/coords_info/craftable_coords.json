@@ -143,12 +143,6 @@
         "X": 32,
         "Y": 576
     },
-    "Campfire_1": {
-        "Height": 32,
-        "Width": 32,
-        "X": 96,
-        "Y": 1088
-    },
     "Carved Brazier": {
         "Height": 32,
         "Width": 16,
@@ -202,6 +196,12 @@
         "Width": 16,
         "X": 96,
         "Y": 960
+    },
+    "Cookout Kit": {
+        "Height": 32,
+        "Width": 32,
+        "X": 96,
+        "Y": 1088
     },
     "Crate_0": {
         "Height": 32,

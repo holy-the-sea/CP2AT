@@ -71,6 +71,8 @@ def _get_craftable_coordinate_info():
             id_name = f"{object_name}_{id_num}"
             if id_name == "Campfire_0":
                 id_name = "Campfire"
+            elif id_name == "Campfire_1":
+                id_name = "Cookout Kit"
             craftable_objects_dict[id_name] = {
                 "X": x_left,
                 "Y": y_top,
