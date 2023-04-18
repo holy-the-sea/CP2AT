@@ -32,6 +32,9 @@ def generate_new_manifest(mod_folder_path, AT_folder_path):
     manifest_path = Path(AT_folder_path) / "manifest.json"
     with open(Path(mod_folder_path) / "manifest.json", "r", encoding="utf-8") as json_file:
         manifest_json = json5.load(json_file)
+    if "[CP]" not in manifest_json["Name"]:
+        name = manifest_json["Name"]
+        manifest_json["Name"] = f"[AT] {name}"
     manifest_json["Version"] = "1.0"
     manifest_json["UniqueID"] += ".AT"
     manifest_json["ContentPackFor"]["UniqueID"] = "PeacefulEnd.AlternativeTextures"
