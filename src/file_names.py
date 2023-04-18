@@ -19,6 +19,8 @@ def get_file_path(file, object_name, mod_folder_path, file_season):
         r"assets", "Textures", str(new_folder_path), flags=re.IGNORECASE
     )
     new_folder_path = re.sub(r"\?", "_", new_folder_path)
+    new_folder_path = re.sub(r":", "_", new_folder_path)
+    
     new_folder_path = Path(new_folder_path)
     if not new_folder_path.exists():
         try:

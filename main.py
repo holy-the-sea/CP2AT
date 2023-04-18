@@ -116,7 +116,7 @@ if __name__ == "__main__":
                 keywords,
                 objects_replaced
             )
-        elif "furniture" in target:
+        elif "furniture" in target and "front" not in target:
             objects_replaced = convert_furniture(
                 change,
                 mod_folder_path,
@@ -125,6 +125,8 @@ if __name__ == "__main__":
                 keywords,
                 objects_replaced
             )
+        elif "furniturefront" in target:
+            continue
         else:
             print(f"Not Implemented: {target}")
         print()

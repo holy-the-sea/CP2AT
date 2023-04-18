@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 import json5
+import json
 import numpy as np
 from PIL import Image, ImageChops
 
@@ -20,11 +21,20 @@ with open(
 ) as json_file:
     furniture_objects_info = json5.loads(json_file.read())
 
+furniture_coords_info = {
+    (value["X"], value["Y"]): {
+        "Object": key,
+        "Type": value["Type"],
+        "Width": value["Width"],
+        "Height": value["Height"],
+    }
+    for key, value in furniture_objects_info.items()
+}
+furniture_coords = np.array(list(furniture_coords_info.keys()))
+
 def split_replacement(
     tilesheet_coords,
-    dimension_name,
-    furniture_coords,
-    furniture_coords_info,
+    dimension_name
 ):
     tilesheet_X = tilesheet_coords["X"]
     tilesheet_Y = tilesheet_coords["Y"]
@@ -72,16 +82,6 @@ def convert_furniture(
     keywords,
     objects_replaced,
 ):
-    furniture_coords_info = {
-        (value["X"], value["Y"]): {
-            "Object": key,
-            "Type": value["Type"],
-            "Width": value["Width"],
-            "Height": value["Height"],
-        }
-        for key, value in furniture_objects_info.items()
-    }
-    furniture_coords = np.array(list(furniture_coords_info.keys()))
 
     file = change["FromFile"]
     target_file = Path(change["Target"].lower()).with_suffix(".png")
@@ -106,7 +106,7 @@ def convert_furniture(
         )
     file_variations = expand_target_variations(
         file_variations,
-        target_file,
+        file,
         mod_folder_path,
         config_schema_options,
         dynamic_tokens,
@@ -127,7 +127,7 @@ def convert_furniture(
             if tilesheet_coords["Width"] != width or tilesheet_coords["Height"] != height:
                 print("Consecutive objects in X-direction replaced, splitting...")
                 object_list = split_replacement(
-                    tilesheet_coords, "Width", furniture_coords, furniture_coords_info
+                    tilesheet_coords, "Width"
                 )
         except KeyError:
             print(
@@ -151,30 +151,32 @@ def convert_furniture(
                     file, object_name, mod_folder_path, file_season
                 )
                 if "FromArea" in change:
-                    X = change["FromArea"]["X"]
-                    Y = change["FromArea"]["Y"]
-                    object_width = change["FromArea"]["Width"]
-                    object_height = change["FromArea"]["Height"]
-                    X_right = X + object_width
-                    Y_bottom = Y + object_height
-                    im_object = im.crop((X, Y, X_right, Y_bottom))
-                    if object_type == "rug":
-                        im_merge = merge_rug_sprites(im_object)
-                        im_merge.save(new_file_path)
-                        image_variations.append(im_merge)
-                    elif object_name == "Large Brown Couch":
-                        im_merge = merge_large_brown_couch(im_object)
-                        im_merge.save(new_file_path)
-                        image_variations.append(im_merge)
+                    if len(object_list) == 1:
+                        X = change["FromArea"]["X"]
+                        Y = change["FromArea"]["Y"]
+                        object_width = change["FromArea"]["Width"]
+                        object_height = change["FromArea"]["Height"]
+                        X_right = X + object_width
+                        Y_bottom = Y + object_height
+                        im_object = im.crop((X, Y, X_right, Y_bottom))
                     else:
-                        im_object.save(new_file_path)
-                        image_variations.append(im_object)
+                        X = data["X"]
+                        Y = data["Y"]
+                        object_width = data["Width"]
+                        object_height = data["Height"]
+                        X_right = X + object_width
+                        Y_bottom = Y + object_height
+                        im_object = im.crop((X, Y, X_right, Y_bottom))
+                    if object_type == "rug":
+                        im_object = merge_rug_sprites(im_object)
+                    elif object_name == "Large Brown Couch":
+                        im_object = merge_large_brown_couch(im_object)
                     print(f"Cropped {object_name} from {Path(file)}.")
                 else:
                     im_object = im
                     object_width, object_height = im_object.size
-                    im_object.save(new_file_path)
-                    image_variations.append(im_object)
+                im_object.save(new_file_path)
+                image_variations.append(im_object)
                 objects_replaced[object_name] = image_variations
 
                 # * add json
@@ -188,6 +190,37 @@ def convert_furniture(
                     keywords,
                     file_season,
                 )
+
+                furniture_Front_path = Path(re.sub("furniture", "furnitureFront", file))
+                furniture_Front_path = mod_folder_path / furniture_Front_path
+                if furniture_Front_path.exists():
+                    im_front = Image.open(furniture_Front_path)
+                    front_X = data["X"]
+                    front_Y = data["Y"]
+                    front_object_width = data["Width"]
+                    front_object_height = data["Height"]
+                    front_X_right = front_X + front_object_width
+                    front_Y_bottom = front_Y + front_object_height
+                    im_object_front = im_front.crop((front_X, front_Y, front_X_right, front_Y_bottom))
+                    # * check for random transparent pixels
+                    num_colors = im_object_front.size[0] * im_object_front.size[1]
+                    front_colors = sorted(x for x in im_object_front.getcolors(num_colors))
+                    front_transparencies = [x[3] for _, x in front_colors]
+                    # * front image has no solid pixels
+                    if all(x != 255 for x in front_transparencies):
+                        continue
+                    print("Letting sit...")
+                    im_front_merge = Image.new("RGBA", (im_object.width, im_object.height * 2))
+                    im_front_merge.paste(im_object, (0, 0), im_object)
+                    im_front_merge.paste(im_object_front, (0, im_object.height), im_object_front)
+                    im_front_merge.save(new_file_path)
+
+                    with open(texture_json_path, "r", encoding="utf-8") as json_file:
+                        texture_json = json5.loads(json_file.read())
+                    texture_json["TextureHeight"] = im_front_merge.height
+                    with open(texture_json_path, "w", encoding="utf-8") as json_file:
+                        json.dump(texture_json, json_file, indent=4)
+
         else:
             print("Trying to identify...")
             for coords, values in furniture_coords_info.items():
@@ -259,5 +292,36 @@ def convert_furniture(
                         keywords,
                         file_season,
                     )
+
+                    furniture_Front_path = Path(re.sub("furniture", "furnitureFront", file))
+                    furniture_Front_path = mod_folder_path / furniture_Front_path
+                    if furniture_Front_path.exists():
+                        im_front = Image.open(furniture_Front_path)
+                        data = furniture_objects_info[object_name]
+                        front_X = data["X"]
+                        front_Y = data["Y"]
+                        front_object_width = data["Width"]
+                        front_object_height = data["Height"]
+                        front_X_right = front_X + front_object_width
+                        front_Y_bottom = front_Y + front_object_height
+                        im_object_front = im_front.crop((front_X, front_Y, front_X_right, front_Y_bottom))
+                        # * check for random transparent pixels
+                        num_colors = im_object_front.size[0] * im_object_front.size[1]
+                        front_colors = sorted(x for x in im_object_front.getcolors(num_colors))
+                        front_transparencies = [x[3] for _, x in front_colors]
+                        # * front image has no solid pixels
+                        if all(x != 255 for x in front_transparencies):
+                            continue
+                        print(f"Let sit on {object_name}...\n")
+                        im_front_merge = Image.new("RGBA", (im_cropped_mod.width, im_cropped_mod.height * 2))
+                        im_front_merge.paste(im_cropped_mod, (0, 0), im_cropped_mod)
+                        im_front_merge.paste(im_object_front, (0, im_cropped_mod.height), im_object_front)
+                        im_front_merge.save(new_file_path)
+
+                        with open(texture_json_path, "r", encoding="utf-8") as json_file:
+                            texture_json = json5.loads(json_file.read())
+                        texture_json["TextureHeight"] = im_front_merge.height
+                        with open(texture_json_path, "w", encoding="utf-8") as json_file:
+                            json.dump(texture_json, json_file, indent=4)
 
     return objects_replaced
