@@ -150,16 +150,20 @@ def convert_craftables(
                     image_variations.append(im)
                 # * asset was a tilesheet
                 else:
-                    X = craftable_objects_info[object_name]["X"]
-                    Y = craftable_objects_info[object_name]["Y"]
-                    width = craftable_objects_info[object_name]["Width"]
-                    height = craftable_objects_info[object_name]["Height"]
-                    X_right = X + width
-                    Y_bottom = Y + height
-                    im_cropped = im.crop((X, Y, X_right, Y_bottom))
-                    im_cropped.save(new_file_path)
-                    image_variations.append(im_cropped)
-                    print(f"Cropped {object_name} from {Path(file)}.")
+                    if change["FromArea"]["Height"] == im.height and change["FromArea"]["Width"] == im.width:
+                        im.save(new_file_path)
+                        image_variations.append(im)
+                    else:
+                        X = craftable_objects_info[object_name]["X"]
+                        Y = craftable_objects_info[object_name]["Y"]
+                        width = craftable_objects_info[object_name]["Width"]
+                        height = craftable_objects_info[object_name]["Height"]
+                        X_right = X + width
+                        Y_bottom = Y + height
+                        im_cropped = im.crop((X, Y, X_right, Y_bottom))
+                        im_cropped.save(new_file_path)
+                        image_variations.append(im_cropped)
+                        print(f"Cropped {object_name} from {Path(file)}.")
                 # * update list of which objects we have replaced
                 objects_replaced[object_name] = image_variations
                 texture_json_path = Path(new_file_path).parent / "texture.json"
