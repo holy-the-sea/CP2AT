@@ -27,6 +27,7 @@ furniture_coords_info = {
         "Type": value["Type"],
         "Width": value["Width"],
         "Height": value["Height"],
+        "Rotations": value["Rotations"]
     }
     for key, value in furniture_objects_info.items()
 }
@@ -244,7 +245,7 @@ def convert_furniture(
                 im_mod = background
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
 
-                if values["Type"] == "rug":
+                if values["Type"] == "rug" and values["Rotations"] != "1":
                     im_cropped_vanilla = merge_rug_sprites(im_cropped_vanilla)
                     im_cropped_mod = merge_rug_sprites(im_cropped_mod)
                 elif object_name == "Large Brown Couch":
