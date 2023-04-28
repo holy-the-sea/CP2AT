@@ -91,6 +91,10 @@ def _get_furniture_coords():
                 else:                    
                     rot_width = width * (5 / 3)
                     rot_height = height * 1.5
+            # * beds don't rotate, but have made and unmade sprites
+            if "bed" in data[1].lower():
+                rot_width = width * 2
+                rot_height = height
 
             furniture_objects_dict[data[0]] = {
                 "X": X,
@@ -100,10 +104,6 @@ def _get_furniture_coords():
                 "Height": int(rot_height),
                 "Rotations": data[4]
             }
-        # * beds don't rotate, but have made and unmade sprites
-        if "bed" in data[1].lower():
-            rot_width = width * 2
-            rot_height = height
         else:
             rot_width = width
             rot_height = height

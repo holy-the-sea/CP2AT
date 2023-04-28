@@ -233,13 +233,13 @@ def convert_furniture(
                 Y_bottom = Y + object_height
 
                 im_vanilla = Image.open(target_file).convert("RGBA")
-                background = Image.new("RGBA", im_vanilla.size, "white")
+                background = Image.new("RGBA", im_vanilla.size,  (0, 0, 0, 0))
                 background.paste(im_vanilla, (0, 0), im_vanilla)
                 im_vanilla = background
                 im_cropped_vanilla = im_vanilla.crop((X, Y, X_right, Y_bottom))
 
                 im_mod = Image.open(mod_folder_path / file).convert("RGBA")
-                background = Image.new("RGBA", im_mod.size, "white")
+                background = Image.new("RGBA", im_mod.size, (0, 0, 0, 0))
                 background.paste(im_mod, (0, 0), im_mod)
                 im_mod = background
                 im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
@@ -269,10 +269,10 @@ def convert_furniture(
                     if all(all(x < 5 for x in y[:2]) for _, y in mod_colors):
                         continue
                     print(f"Found a match: {object_name} from {Path(file)}...")
-                    im_vanilla = Image.open(target_file)
-                    im_mod = Image.open(mod_folder_path / file)
-                    im_cropped_vanilla = im_vanilla.crop((X, Y, X_right, Y_bottom))
-                    im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
+                    # im_vanilla = Image.open(target_file)
+                    # im_mod = Image.open(mod_folder_path / file)
+                    # im_cropped_vanilla = im_vanilla.crop((X, Y, X_right, Y_bottom))
+                    # im_cropped_mod = im_mod.crop((X, Y, X_right, Y_bottom))
                     new_file_path = get_file_path(
                         file, object_name, mod_folder_path, file_season
                     )
