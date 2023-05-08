@@ -115,7 +115,7 @@ def convert_buildings(
                 texture_json_path = farmhouse_folder / "texture.json"
                 generate_texture_json(
                     texture_json_path,
-                    building,
+                    f"Farmhouse_{i}",
                     "Building",
                     320,
                     144,

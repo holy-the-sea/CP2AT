@@ -9,7 +9,8 @@ import json5
 
 def generate_texture_json(texture_json_path, item_name, item_type, width, height, keywords, file_season):
     try:
-        item_name = re.sub(r"_\d+", "", item_name)
+        if "Farmhouse" not in item_name:
+            item_name = re.sub(r"_\d+", "", item_name)
         with open(texture_json_path, "r", encoding="utf-8") as json_file:
             old_texture_json = json5.loads(json_file.read())
         old_texture_json["Variations"] += 1
