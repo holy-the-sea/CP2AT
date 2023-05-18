@@ -3,6 +3,7 @@ import shutil
 from pathlib import Path, PurePath
 from os import path
 import os
+import re
 
 import json5
 
@@ -90,56 +91,68 @@ if __name__ == "__main__":
             pass
 
         target = change["Target"].lower()
-        if "tilesheets/craftables" in target:  # or "maps/springobjects" in target:
-            objects_replaced = convert_craftables(
-                change,
-                mod_folder_path,
-                config_schema_options,
-                dynamic_tokens,
-                keywords,
-                objects_replaced,
-            )
-        elif "buildings" in target:
-            objects_replaced = convert_buildings(
-                change,
-                mod_folder_path,
-                config_schema_options,
-                dynamic_tokens,
-                keywords,
-                objects_replaced
-            )
-        elif "tree" in target:
-            objects_replaced = convert_trees(
-                change,
-                mod_folder_path,
-                config_schema_options,
-                dynamic_tokens,
-                keywords,
-                objects_replaced
-            )
-        elif "furniture" in target and "front" not in target:
-            objects_replaced = convert_furniture(
-                change,
-                mod_folder_path,
-                config_schema_options,
-                dynamic_tokens,
-                keywords,
-                objects_replaced
-            )
-        elif "furniturefront" in target:
-            continue
-        elif "animals" in target:
-            objects_replaced = convert_animals(
-                change,
-                mod_folder_path,
-                config_schema_options,
-                dynamic_tokens,
-                keywords,
-                objects_replaced
-            )
+        if "," in target:
+            target_list = re.sub(",", ".png,", target.title())
+            target_list = re.split(r",\s?", target_list)
+            change_list = []
+            for content in target_list:
+                change_copy = change.copy()
+                change_copy["Target"] = content
+                change_list.append(change_copy)
         else:
-            print(f"Not Implemented: {target}")
-        print()
+            change_list = [change]
+        for item in change_list:
+            target = item["Target"].lower()
+            if "tilesheets/craftables" in target:  # or "maps/springobjects" in target:
+                objects_replaced = convert_craftables(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced,
+                )
+            elif "buildings" in target:
+                objects_replaced = convert_buildings(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced
+                )
+            elif "tree" in target:
+                objects_replaced = convert_trees(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced
+                )
+            elif "furniture" in target and "front" not in target:
+                objects_replaced = convert_furniture(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced
+                )
+            elif "furniturefront" in target:
+                continue
+            elif "animals" in target:
+                objects_replaced = convert_animals(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced
+                )
+            else:
+                print(f"Not Implemented: {target}")
+            print()
 
     print("Creating new manifest...")
     generate_new_manifest(mod_folder_path, AT_folder_path)

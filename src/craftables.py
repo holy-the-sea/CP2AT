@@ -60,7 +60,7 @@ def convert_craftables(
     }
 
     file = change["FromFile"]
-    target_file = Path(change["Target"].lower()).with_suffix(".png")
+    target_file = Path(change["Target"]).with_suffix(".png")
 
     found_placeholders = re.findall(r"{{(.*?)}}", file)
     found_seasons = False

@@ -85,7 +85,7 @@ def convert_furniture(
 ):
 
     file = change["FromFile"]
-    target_file = Path(change["Target"].lower()).with_suffix(".png")
+    target_file = Path(change["Target"]).with_suffix(".png")
 
     found_placeholders = re.findall(r"{{(.*?)}}", file)
     file_season = False
@@ -107,7 +107,7 @@ def convert_furniture(
         )
     file_variations = expand_target_variations(
         file_variations,
-        file,
+        target_file,
         mod_folder_path,
         config_schema_options,
         dynamic_tokens,

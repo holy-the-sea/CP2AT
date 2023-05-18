@@ -74,16 +74,19 @@ def get_file_variations(file, mod_folder_path, placeholder_tokens, *args):
         elif "|contains=" in placeholder:
             cartesian.append(["true", "false"])
 
-    for cartesian_product in product(*cartesian):
-        file_variant = file
-        for i, placeholder in enumerate(cartesian_product):
-            file_variant = re.sub(
-                r"{{.*?}}", cartesian_product[i], file_variant, count=1
-            )
-            if (mod_folder_path / file_variant).exists():
-                file_variations.append(file_variant)
-            elif "{{Target}}" in file_variant:
-                file_variations.append(file_variant)
+    if cartesian:
+        for cartesian_product in product(*cartesian):
+            file_variant = file
+            for i, placeholder in enumerate(cartesian_product):
+                file_variant = re.sub(
+                    r"{{.*?}}", cartesian_product[i], file_variant, count=1
+                )
+                if (mod_folder_path / file_variant).exists():
+                    file_variations.append(file_variant)
+                elif "{{Target}}" in file_variant:
+                    file_variations.append(file_variant)
+    else:
+        file_variations = [file]
 
     return file_variations, found_season
 
@@ -93,7 +96,7 @@ def expand_target_variations(
 ):
     for file in list(file_variations):
         if "{{Target}}" in file:
-            file2 = file.replace("{{Target}}", str(target_file))
+            file2 = file.replace("{{Target}}", re.sub(".png", "", str(target_file)))
             found_placeholders = re.findall(r"{{(.*?)}}", file2)
             if found_placeholders:
                 file_variations2, _ = get_file_variations(
@@ -103,6 +106,8 @@ def expand_target_variations(
                     config_schema_options,
                     dynamic_tokens,
                 )
+            else:
+                file_variations2 = [file2]
             if all(f in file_variations for f in file_variations2):
                 continue
             file_variations.extend(file_variations2)

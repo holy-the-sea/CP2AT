@@ -19,9 +19,9 @@ def convert_buildings(
     objects_replaced,
 ):
     file = change["FromFile"]
-    target = change["Target"]
-    building = Path(target).stem
-    print(f"Converting {building}...")
+    target_file = Path(change["Target"]).with_suffix(".png")
+    building = Path(target_file).stem
+    print(f"Converting {building.title()}...")
 
     found_placeholders = re.findall(r"{{(.*?)}}", file)
     found_seasons = False
@@ -45,7 +45,7 @@ def convert_buildings(
         )
     file_variations = expand_target_variations(
         file_variations,
-        file,
+        target_file,
         mod_folder_path,
         config_schema_options,
         dynamic_tokens,
@@ -84,7 +84,7 @@ def convert_buildings(
         new_file_path = get_file_path(file, building, mod_folder_path, file_season)
 
         # farmhouses need to be split into different upgrades for Alternative Textures
-        if target.lower() == "buildings/houses":
+        if building.lower() == "houses":
             house_height = 144
             if X is not False:
                 im = im.crop((X, Y, X_right, Y_bottom))
@@ -129,7 +129,7 @@ def convert_buildings(
         else:
             if X:
                 im = im.crop((X, Y, X_right, Y_bottom))
-            if target.lower() == "buildings/greenhouse" and im.size != (240, 320):
+            if building.lower() == "greenhouse" and im.size != (240, 320):
                 continue
             im.save(new_file_path)  # ! save
             image_variations.append(im)
@@ -143,7 +143,7 @@ def convert_buildings(
                 keywords,
                 file_season,
             )
-    if target.lower() == "buildings/houses":
+    if building.lower() == "houses":
         objects_replaced.update(house_image_variations)
         print(f"Done converting {building}.")
         return objects_replaced
