@@ -8,6 +8,7 @@ import re
 import json5
 
 from src.craftables import convert_craftables
+from src.fences import convert_fences
 from src.dynamic_tokens import get_config_schema, get_dynamic_tokens
 from src.buildings import convert_buildings
 from src.foliage import convert_trees
@@ -111,6 +112,15 @@ if __name__ == "__main__":
                     dynamic_tokens,
                     keywords,
                     objects_replaced,
+                )
+            elif "fence" in target:
+                objects_replaced = convert_fences(
+                    item,
+                    mod_folder_path,
+                    config_schema_options,
+                    dynamic_tokens,
+                    keywords,
+                    objects_replaced
                 )
             elif "buildings" in target:
                 objects_replaced = convert_buildings(
