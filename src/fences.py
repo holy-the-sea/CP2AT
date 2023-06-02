@@ -57,7 +57,7 @@ def convert_fences(
     for file in file_variations:
         if re.search("{{.*?}}", file):
             continue
-        im = Image.open(mod_folder_path / file)
+        im_fence = Image.open(mod_folder_path / file)
 
         # * check if seasonal variations
         if found_seasons or any(
@@ -69,12 +69,12 @@ def convert_fences(
         else:
             file_season = False
 
-        im = Image.open(mod_folder_path / file)
+        im_fence = Image.open(mod_folder_path / file)
         new_file_path = get_file_path(
             file, fence, mod_folder_path, file_season
         )
-        im.save(new_file_path)
-        image_variations.append(im)
+        im_fence.save(new_file_path)
+        image_variations.append(im_fence)
         objects_replaced[fence] = image_variations
         texture_json_path = Path(new_file_path).parent / "texture.json"
         generate_texture_json(
@@ -86,5 +86,22 @@ def convert_fences(
             keywords,
             file_season
         )
+        if im_fence.height > 128:
+            im_gate = im_fence.crop((0, 128, 48, 352))
+            new_file_path = get_file_path(
+                file, "Gate", mod_folder_path, file_season)
+            im_gate.save(new_file_path)
+            image_variations.append(im_gate)
+            objects_replaced["Gate"] = image_variations
+            texture_json_path = Path(new_file_path).parent / "texture.json"
+            generate_texture_json(
+                texture_json_path,
+                "Gate",
+                "Craftable",
+                48,
+                224,
+                keywords,
+                file_season
+            )
     print("Done.")
     return objects_replaced
