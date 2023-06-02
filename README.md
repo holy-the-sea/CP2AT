@@ -7,9 +7,11 @@ This script relies on comparing the asset provided by the mod to the vanilla ass
 ## Features
 Currently, this script supports the conversion of:
 1. TileSheets/Craftables.png
-2. Fruit Trees & Trees
+2. Fences
 3. TileSheets/Furniture.png
 4. Farm Buildings
+5. Fruit Trees & Trees
+6. Animals
 
 ## Usage
 For a better guide (with screenshots!) on how to install Python and run a Python script from command line, see Elizabeth's guides for **Windows** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Windows_guide.md#windows-detailed-pictorial-install-guide) and **Mac** [here](https://github.com/elizabethcd/FurnitureConverter/blob/main/docs/Mac_guide.md#mac-detailed-pictorial-install-guide)
@@ -46,5 +48,5 @@ CP2AT/
 * `furnitureFront` conversion is not currently thoroughly tested, please check those textures carefully after the script is done.
 
 ## To-Do:
-* Extend script to function for springobjects, animals, etc.
+* Extend script to function for springobjects, etc.
 * Add argument flags for indicating Object Type when no content.json is available to scrape from (e.g. XNB conversions or PNGs from Naver)
